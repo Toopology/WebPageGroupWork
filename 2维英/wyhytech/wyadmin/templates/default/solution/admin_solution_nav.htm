@@ -1,0 +1,6 @@
+<div class="topnav">
+    <a href="admin_solution.php?act=list" {#if $act=='list'#}class="select"{#/if#}><u>信息列表</u></a>
+    <a href="admin_solution.php?act=solution_add" {#if $act=='solution_add'#}class="select"{#/if#}><u>添加信息</u></a>
+    <a href="?act=category" {#if $act=="category" || $act=="category_add" ||  $act=="edit_category"#}class="select"{#/if#}><u>分类列表</u></a>
+<div class="clear"></div>
+</div>

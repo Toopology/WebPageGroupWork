@@ -1,0 +1,50 @@
+@charset "utf-8";
+body { font-size:12px; background:#FFF; color:#333;}
+body,form,p,ul { margin:0; padding:0;}
+input {font-size:12px}
+a { color:#066; text-decoration:none}
+a:hover{ color:#F60}
+ul{ list-style:none}
+
+.bg1 { background:#FFFFFF;color:#0066CC; font-weight:bold; text-align:center; height:20px;}
+.hide { display:none}
+.HackBox{border-top:1px solid transparent !important;border-top:0;clear:both;}
+.f11 { font-size:11px; font-family:Tahoma, Geneva, sans-serif}
+.tr1 td{ background:#EDF7FF;}
+.tr2 td{ background:#FFF;}
+.skey { color:#F00; background:#FF9}
+
+input.text,textarea.text { background:#F8F8F8; border:1px solid #E6E6E6; color:#033; padding:4px}
+input.button {}
+
+#admin_top { background:url(img/top.gif); height:71px; border-bottom:1px solid #EFEFEF}
+#admin_body { width:100%;padding-top:15px}
+	#admin_right { margin-left:170px}
+		#admin_right_body {width:100%;float:left}
+	#admin_left {width:155px;float:left}
+		#admin_left ul { text-align:center}
+		#admin_left ul li.title { font-weight:bold; text-align:left; padding-left:25px; margin-left:5px; background-color:#EDF7FF; border:1px solid #D2EBFF}
+		#admin_left ul li{ line-height:25px}
+	
+.my_table { border-left:1px solid #D2EBFF;border-top:1px solid #D2EBFF; width:100%}
+.my_table td{ border-right:1px solid #D2EBFF;border-bottom:1px solid #D2EBFF;padding:5px}
+	.my_table .header{ background:#C4E1F8; font-size:14px; font-weight:bold}
+	.my_table .title{ background:#EDF7FF; font-weight:bold}
+	.my_table .right {background:#EDF7FF; text-align:right}
+	.my_table .bottom {background:#EDF7FF}
+	
+.icon1,.icon2,.icon3,.icon4 {background-image:url(img/icon.gif);}
+	.icon1 { background-position:-298px -33px;}
+	.icon2 { background-position:-298px 1px;}
+	.icon3 { background-position:-3px -36px;}
+	.icon4 { background-position:-5px -219px;}
+	
+/*分页链接样式---------------------------*/
+.page_link{  float:left;font:bold 12px Arial;margin:0 2px;padding:1px 5px;text-align:center;font-weight:bold;text-decoration:none;border:1px solid #999;}
+.page_link:hover{margin:0 2px;padding:1px 5px;font:bold 12px Arial;color:#000;border:1px solid black;text-decoration:none;background:#eee;}
+.prevLink {float:left; margin:0 10px 0 0; line-height:20px;font-size:11px; font-weight:bold}
+.nextLink {float:left; margin:0 0 0 10px; line-height:20px; font-size:11px; font-weight:bold}
+.currLink {border:1px solid #999; color:#FFF; background:#C80D16}
+.pageNav {clear:both;height:20px; line-height:20px; overflow:hidden}
+/*---------------------------分页链接样式*/
+	

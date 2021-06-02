@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script src="jquery.js"></script>
+<script src="tipswindow.js"></script>
+<script>
+function showIframe(){
+tipsWindow("注册", "iframe:http://www.baidu.com/", "520", "250", "true", "", "true", "text");
+}
+function showText(){
+tipsWindow("注册", "text:http://www.baidu.com/", "520", "250", "true", "", "true", "text");
+}
+function showElement(){
+tipsWindow("加入购物车", "id:hide_content", "520", "250", "true", "", "false", "text");
+}
+function showPic(){
+tipsWindow("注册", "img:http://www.showchina.net.cn/BBS/attachmentsBBS/month_1005/10050200098dc0653049d89f70.jpg", "520", "250", "true", "", "true", "text");
+}
+function showAjax(){
+tipsWindow("注册", "url:get?test.html", "520", "250", "true", "", "true", "text");
+}
+</script>
+</head>
+
+<body>
+<div style="position:absolute; left:50%; top:50%; margin-left:-300px; margin-top:-150px; border:4px solid #EEE; background:#FFF">
+<div style="width:600px; height:250px; border:1px solid #CCC; padding:10px; line-height:2em; text-align:center">
+<h3 style="background:#FFC; color:#F60">TipsWindow演示界面</h3>
+<a onClick="showIframe();">1.iframe框架</a><br/>
+<a onClick="showText();">2.文字内容</a><br/>
+<a onClick="showElement();">3.页面内元素内容</a><br/>
+<a onClick="showPic();">4.图片内容</a><br/>
+<a onClick="showAjax();">5.ajax加载</a><br/>
+</div>
+</div>
+<div id="hide_content" class="hide">今晚高考成绩就出来了，为弟弟求人品，今年考试就过了吧………爸妈很辛苦………话说一日于朋友聊天，他突然问：“如果你男朋友想吻你但是你不想，你怎么说？”我张口hll的来了句：“今天算了吧，我嘴里长了痔疮…”痔疮…嘴巴里…哥哥我真错了！
+</div>
+</body>
+</html>

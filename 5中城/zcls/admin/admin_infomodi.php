@@ -1,0 +1,82 @@
+<?
+	session_start();
+	if(!$_SESSION['username']){
+		echo "<script language='javascript'>window.document.location.href='adminlogin.html';</script>";
+	}
+?>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/Jscript" src="js/base.js"></script>
+<title>添加新闻</title>
+</head>
+<?
+  	include "../conn.php";
+	$conn=mysql_connect($url,$c_username,$c_password);
+
+	if(mysql_select_db("zcls")){
+		mysql_query("SET NAMES 'gbk'");
+		$string="";
+		$id=$_POST['id'];
+		$name=$_POST['name'];
+		$type=$_POST['type'];
+		$content=$_POST['content'];
+		$date=date("Y-m-d");
+		$sql="update information set name='".$name."',type='".$type."',content='".$content."',date='".$date."' where id=$id";
+		if(mysql_query($sql)){
+			$string="修改新闻成功！";
+		}else{
+			$string="修改新闻失败！";
+		}
+		$sql="select * from information where id=$id";
+		$result=mysql_query($sql);
+		$arr=mysql_fetch_array($result);
+?>
+<body leftmargin="0" topmargin="0" bgcolor="#FFFFEE">
+ <form name="modifyInformation" method="post" action="admin_infomodi.php" onSubmit="return check(this);">
+<table width="90%" border="0" align="center" cellpadding="0" cellspacing="2">
+ 
+    <tr align="center" bgcolor="#FFFFEE"> 
+      <td height="30" colspan="2"><font color="#0000FF"><strong>修改新闻</strong></font></td>
+    </tr>
+    <tr> 
+      <td height="30" colspan="2" align="center"><font color="#FF0000"><strong><? echo $string; ?></strong></font></td>
+    </tr>
+    <tr> 
+      <td width="100" height="25"><font color="#FF0000">*</font>新闻标题：</td>
+      <td width="400">
+				<input name="name" type="text" class="input" size="30" value="<? echo $arr['name'] ?>"></td>
+    </tr>
+    <tr> 
+      <td height="25"><font color="#FF0000">*</font>新闻类别：</td>
+      <td> 
+        <select name="type">
+          <option value="">请选择新闻类别</option>
+          <option value="律师介绍">律师介绍</option>
+          <option value="案例分析">案例分析</option>        
+          <option value="诉讼常识">诉讼常识</option>
+        </select> 
+      </td>
+    </tr>
+    <tr> 
+      <td height="25" valign="top"><font color="#FF0000">*</font>新闻内容：</td>
+      <td valign="top">
+      	<textarea name="content" cols="100" rows="30" wrap="Physical"><? echo $arr['content'] ?></textarea>
+      </td>
+    </tr> 
+    <tr> 
+      <td height="30" colspan="2" align="center"> 
+        <input type="submit" name="Submit" value="提交" class="input">
+        <input type="hidden" name="id" value="<? echo $arr['id'] ?>">        　 
+        <input type="reset" name="Submit2" value="重置" class="input"> 
+      </td>
+    </tr>
+  
+</table></form>
+</body>
+<?
+	}
+	mysql_close($conn);
+?>
+</html>

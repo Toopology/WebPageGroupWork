@@ -1,0 +1,97 @@
+<?php require_once('D:\website\wyhytech\include\template_lite\plugins\function.picture_ad.php'); $this->register_function("picture_ad", "tpl_function_picture_ad",false);  /* V2.10 Template Lite 4 January 2007  (c) 2005-2007 Mark Dickenson. All rights reserved. Released LGPL. 2017-06-21 09:09 �й���׼ʱ�� */ ?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户协议-<?php echo $this->_vars['SYS']['site_name']; ?>
+</title>
+		<!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>-->
+		<link href="<?php echo $this->_vars['SYS']['site_template']; ?>
+css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link data-turbolinks-track="true" href="<?php echo $this->_vars['SYS']['site_template']; ?>
+css/banner.css" media="all" rel="stylesheet">
+		<link rel="stylesheet" href="<?php echo $this->_vars['SYS']['site_template']; ?>
+css/ionicons.min.css">
+		<link href="<?php echo $this->_vars['SYS']['site_template']; ?>
+css/css.css" rel="stylesheet" type="text/css"/>
+		<script src="<?php echo $this->_vars['SYS']['site_template']; ?>
+js/jquery-1.8.3.min.js"></script>
+		<script src="<?php echo $this->_vars['SYS']['site_template']; ?>
+js/megamenu.js"></script>
+		<script src="<?php echo $this->_vars['SYS']['site_template']; ?>
+js/bootstrap.min.js" ></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maxmum-scale=1.0,minimum-scale=1.0">
+	</head>
+	<body>
+
+	<!--<?php $_templatelite_tpl_vars = $this->_vars;
+echo $this->_fetch_compile_include('header.htm', array());
+$this->_vars = $_templatelite_tpl_vars;
+unset($_templatelite_tpl_vars);
+ ?>
+		-->
+		<!--banner-->
+	<!--<header>
+		<?php echo tpl_function_picture_ad(array('set' => "显示数目:1,调用名称:productsbanner,列表名:ad"), $this);?>
+		<?php if (count((array)$this->_vars['ad'])): foreach ((array)$this->_vars['ad'] as $this->_vars['item']): ?>
+		&lt;!&ndash;<img src="<?php echo $this->_vars['SYS']['upfiles_dir'];  echo $this->_vars['item']['imgurl']; ?>
+"  class="img-responsive center-block datu" >&ndash;&gt;
+		<div class="bantu datu" style="background: url(<?php echo $this->_vars['SYS']['upfiles_dir'];  echo $this->_vars['item']['imgurl']; ?>
+) no-repeat center center;"></div>
+		<?php endforeach; endif; ?>
+	</header>-->
+        <!--banner结束-->
+        <section style="margin-bottom: 50px;">
+        	<div class="container">
+        		<div class="newsxq-conbot">
+					<h4 style="color: #FC6F03; font-size:30px;text-align: center">用户协议</h4>
+        		<div class="xq-text">
+        			<p>尊敬的客户，欢迎您试用“易估通房地产评估系统”（以下简称：易估通），请在注册之前，请您仔细阅读以下条款。用户必须遵守以下所有相关要求，并同意各项约定后方能在设定的试用期内免费使用本系统。</p>
+<h4 style="color: #FC6F03; font-size: 16px; margin-top: 20px;">一、声明</h4>
+<p>（1） 易估通是由上海维英恒业科技有限公司自主研发的在线评估系统。该系统运用信息技术，将房地产估价技术与估价师的经验充分揉合，利用先进的网络平台，为房地产服务业务的开展提供独立的第三方观点。本系统所提供的评估价格结果仅供用户参考使用，不构成任何实际交易承诺，本公司不承担由此造成损失和纠纷的任何法律责任。</p>
+ 
+<p>（2）本协议双方为试用用户与上海维英恒业科技有限公司，本协议具有合同效力。在确认本协议后，本协议即产生法律效力。请您务必在注册之前认真阅读本协议全部内容，如有任何疑问，可向上海维英恒业科技有限公司咨询。在用户点击“我已阅读并且同意试用协议”按钮并按流程通过审核成功注册为试用用户的，即视为接受本协议及各类规则，并同意受其约束。如果发生纠纷，试用用户不得以未仔细阅读为由进行抗辩。</p>
+
+<p>（3）本公司尊重并保护所有注册用户的个人隐私权，用户注册的姓名、手机号码，单位名称，职务及电子邮件地址等资料，非经本人许可或根据相关法律、法规的强制性规定，本公司不会主动地泄露给第三方。同时，您有义务妥善保管好您的账号及登录密码，否则，由此造成的一切后果将由用户本人承担。</p>
+
+<p>（4）请确保您提供的相关信息完全准确，否则有可能会导致您的账户申请无法获得通过。</p> 
+
+<p>（5）试用用户个人对网络服务的使用承担风险，本公司不做任何形式的担保，不论是明确或是隐含的。不保证服务不中断，对服务的安全性、正确性、适用性和效果均不做任何保证。因网络状况、通讯线路等任何技术原因而导致您不能正常使用，本公司不承担任何法律责任。</p>
+
+<p>（6）注册成功的试用用户须妥善管理自己的账户及密码，不得赠与、借用、租用、转让或者售卖给任何第三方。若出于试用用户的原因导致账户或密码泄露，用户需自行承担相应的一切责任，与本公司无关。</p>
+
+<p>（7）用户在试用过程中，对于接触或了解到的有关易估通的一切信息及资料，均负有保密义务。非经本公司的书面同意，不得向任何第三方披露任何保密信息。如您违反以上任一规定，一经发现，本公司将立即暂停对该账户的相关服务，并保留对该您进行法律追偿的权利。</p>
+
+<p>（8）用户在试用易估通的过程中，应遵守国家有关法律法规以及规章制度的规定，不得利用易估通从事任何违法、违规的活动。</p>
+
+<h4 style="color: #FC6F03; font-size: 16px; margin-top: 20px;">二、使用期限</h4>
+<p>（1）免费试用期限为自您注册成功之日起的7个自然日（包含休息日及法定节假日），在此期间，易估通不收取任何费用。</p>
+
+<p>（2）免费试用期结束后如需继续使用易估通系统，请向本公司提出申请。关于成为正式用户的有关事宜，双方可通过友好协商并另行签订补充协议。</p>
+
+<h4 style="color: #FC6F03; font-size: 16px; margin-top: 20px;">三、其他</h4>
+<p>（1）本协议的订立、执行和解释及争议的解决均应适用中华人民共和国法律。如发生本协议与适用之法律相抵触时，则这些条款将完全按法律规定重新解释，而其他有效条款将继续有效。</p>
+<p>（2）本协议解释权及修订权归上海维英恒业科技有限公司所有。</p>
+</p>
+        			
+        		</div>
+        		
+        	</div>
+        	</div>
+        </section>
+         
+         <!--底部开始-->
+	<!--<?php $_templatelite_tpl_vars = $this->_vars;
+echo $this->_fetch_compile_include('footer.htm', array());
+$this->_vars = $_templatelite_tpl_vars;
+unset($_templatelite_tpl_vars);
+ ?>
+	<script type="text/javascript" src="<?php echo $this->_vars['SYS']['site_template']; ?>
+js/slick.js" ></script>
+	<script type="text/javascript" src="<?php echo $this->_vars['SYS']['site_template']; ?>
+js/js.js" ></script>-->
+ 
+	</body>
+</html>

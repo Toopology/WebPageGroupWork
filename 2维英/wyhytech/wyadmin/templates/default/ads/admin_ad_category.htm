@@ -1,0 +1,59 @@
+{#include file="sys/admin_header.htm"#}
+<div class="admin_main_nr_dbox">
+<div class="pagetit">
+	<div class="ptit"> {#$pageheader#}</div>
+	{#include file="ads/admin_ad_nav.htm"#}
+  <div class="clear"></div>
+</div>
+<div class="toptip">
+</div>
+ 
+		  <table width="100%" border="0" cellpadding="0" cellspacing="0" id="list" class="link_lan">
+          <tr>
+            <td  class="admin_list_tit admin_list_first">名称</td>
+            <td class="admin_list_tit">调用名称</td>
+            <td width="12%" align="center" class="admin_list_tit">类型</td>
+            <td width="12%" align="center" class="admin_list_tit">编辑</td>
+            </tr>
+			{#foreach from=$list item=li#}
+			
+			  <tr>
+            <td  class="admin_list admin_list_first">
+			{#$li.categoryname#}	
+			</td>
+            <td class="admin_list">
+			{#$li.alias#}
+			</td>
+            <td align="center" class="admin_list">
+			{#if $li.admin_set=="1"#}
+			<span style="color:#FF6600">系统内置</span>
+			{#else#}
+			自定义广告位
+			{#/if#}			</td>
+            <td align="center" class="admin_list">
+			{#if $li.admin_set!="1"#}
+			<a href="?act=edit_ad_category&id={#$li.id#}"  >修改</a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="?act=del_ad_category&id={#$li.id#}&{#$urltoken#}" onclick="return confirm('你确定要删除吗？')">删除</a>
+			{#else#}
+			<span style="color:#999999">修改</span>&nbsp;&nbsp;&nbsp;
+			<span style="color:#999999">删除</span>
+			
+			{#/if#}			</td>
+            </tr>
+			{#/foreach#}
+  </table>
+		<table width="100%" border="0" cellspacing="10"  class="admin_list_btm">
+<tr>
+      <!--<td>
+       <input type="button" name="Submit22" value="添加" class="admin_submit"    onclick="window.location='?act=ad_category_add'"/>
+	  </td>-->
+      <td width="360">	  
+	  </td>
+     </tr>
+  </table>
+ 
+</div>
+{#include file="sys/admin_footer.htm"#}
+</body>
+</html>

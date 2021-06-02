@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>国城估价 - 国城视界</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FF6600;
+}
+body,td,th {
+	font-size: 14px;
+}
+.STYLE1 {
+	color: #CC0000;
+	text-decoration: none;
+}
+-->
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE2 {	color: #FFFFFF;
+	font-size: 14px;
+}
+.STYLE3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body onLoad="'images/menu2_02.jpg','images/menu2_04.jpg','images/menu2_06.jpg','images/menu2_08.jpg','images/menu2_10.jpg','images/menu2_12.jpg','images/menu2_14.jpg';MM_preloadImages('images/menu2_company.jpg','images/menu2_zz.jpg','images/menu2_fu.jpg','images/menu2_lc.jpg','images/menu2_gjcs.jpg','images/menu2_fg.jpg','images/menu2_job.jpg')">
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/aboutus_01.jpg" width="1000" height="114"></td>
+  </tr>
+</table>
+
+<!--菜单表格 -->
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="28" align="center" bgcolor="#ED1B24"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/menu2_02.jpg',1)"><img src="images/menu_02.jpg" alt="首页" name="home" width="84" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_wh.style.display='block'"
+onmouseout="myMenu_wh.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_wh style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">
+                <table width="80" height="77" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('company','','images/menu2_company.jpg',1)"><img src="images/menu_company.jpg" alt="公司简介" name="company" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="cert.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cert','','images/menu2_zz.jpg',1)"><img src="images/menu_zz.jpg" alt="公司资质" name="cert" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>				  <tr>
+                    <td><a href="lilian.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lilian','','images/menu2_lilian.jpg',1)"><img src="images/menu_lilian.jpg" alt="经营理念" name="lilian" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="fuwu.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fuwu','','images/menu2_fu.jpg',1)"><img src="images/menu_fu.jpg" alt="服务范围" name="fuwu" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="liucheng.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('liucheng','','images/menu2_lc.jpg',1)"><img src="images/menu_lc.jpg" alt="服务流程" name="liucheng" width="112" height="29" border="0"></a></td>
+                  </tr>
+           <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="jigou.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jigou','','images/menu2_jg.jpg',1)"><img src="images/menu_jg.jpg" alt="合作机构" name="jigou" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aboutus','','images/menu2_04.jpg',1)"><img src="images/menu_04.jpg" alt="关于我们" name="aboutus" width="112" height="28" border="0"></a></div>
+        </div></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="pgs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pgs','','images/menu2_06.jpg',1)"><img src="images/menu_06.jpg" alt="评估案例" name="pgs" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_build.style.display='block'"
+onmouseout="myMenu_build.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_build style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">                <table width="80" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="flfg.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('flfg','','images/menu2_fg.jpg',1)"><img src="images/menu_fg.jpg" alt="法律法规" name="flfg" width="112" height="29" border="0"></a></td>
+                  </tr>
+		 <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="gjcs.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gjcs','','images/menu2_gjcs.jpg',1)"><img src="images/menu_gjcs.jpg" alt="估价常识" name="gjcs" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('build','','images/menu2_08.jpg',1)"><img src="images/menu_08.jpg" alt="信息中心" name="build" width="112" height="28" border="0"></a></div>
+        </div></td>
+		
+		<td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="gcsj_all.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sj','','images/menu2_sj.jpg',1)"><img src="images/menu_sj.jpg" alt="国城视界" name="sj" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="job.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/menu2_job.jpg',1)"><img src="images/menu_job.jpg" alt="招贤纳才" name="job" width="114" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="contactus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contactus','','images/menu2_10.jpg',1)"><img src="images/menu_10.jpg" alt="联系我们" name="contactus" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="#" onClick="javascript:window.external.addfavorite('http://www.gcgj.com.cn','国城估价')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('favorite','','images/menu2_14.jpg',1)"><img src="images/menu_14.jpg" alt="加入收藏" name="favorite" width="112" height="28" border="0"></a></td>
+        <td>　</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<!--菜单表格 -->
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="background-repeat:no-repeat; background-position:bottom">
+  <tr>
+    <td height="31" colspan="2" background="images/aboutus_03.jpg">　</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
+	<tr>
+		<td colspan="2" valign="top" bgcolor="#FFFFFF" style=" background-attachment:fixed; background-image:url(images/dfmz_bg.jpg); background-position:bottom; background-repeat:no-repeat;"><table width="1000" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="840" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x">
+			
+			<!--这里面是内容 -->
+			
+
+			
+			
+			<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="23"><div align="right" class="STYLE1">首页 -&gt; 国城视界</div></td>
+              </tr>
+              <tr>
+                <td height="15" align="right"><img src="images/line.jpg" width="512" height="5"></td>
+              </tr>
+              <tr>
+			     <td height="6" class="t13"><p>　　</p>
+                  <p align="center" class="STYLE3">2010年上海房地产仍将火热 </p>
+                  <p align="right">郭成仁　　　　</p>
+				  <blockquote>
+				    <p>　　2009年已经过去，上海房地产市场异常火热。“地王”和“楼王”的频频出现，一次又一次刷新上海房地产市场的记录，同时引发了市场一声又一声的尖叫。</p>
+			        <p>
+			          　　2009年7月23日，金地集团以30.48亿元高价拿下位于上海青浦的赵巷特色居住区10号地块，楼面地价14495元/平方米，在2009年上海地王争夺战中拔得头筹。</p>
+			        <p> 　　2009年8月27日上午，华润置地以14.2亿的总价，拿下上海嘉定南翔A07、Ａ08号地块，折合楼面地价8066元/平方米。同日下午，华润置地再次出击，以21.02亿元的总价，抢下邻近的A02、A09、A10地块。这两幅地块的总地价达35.22亿元，一跃成为上海新地王。</p>
+				    <p>　　2009年9月10日，中海地产以70.06亿元的总价拿下上海长风地块，平均楼面地价为22400万元/平方米，刷新上海地王记录。				      </p>
+				    <p>　　2009年9月30日，绿地集团以72.45亿元的价格，拿下徐汇龙华路1960号地块，楼面地价27231元/平方米，再次刷新上海地王记录。 </p>
+				    <p>　　2009年12月23日，中建地产以37.2亿元拍得上海新江湾城C6地块，楼面地价高达32484元/平方米以上，荣登上海居住用地新地王宝座。				      </p>
+				    <p>　　疯了！疯了！</p>
+				    <p>　　每一次新地王的出现，人们都会如此惊呼，然而新地王依然层出不穷，没有最高，只有更高！</p>
+				    <p>　　土地不是收藏品，高价拍来的土地一定会盖成楼以更高的价格卖出去。				      </p>
+				    <p>　　当2009年12月10日，浙江绿城以19000元/平方米的楼面地价拿下外环线以外的浦东新区唐镇新市镇地块的时候，已经比当地周边的平均楼盘每平方米建筑面积高出4000元左右，等到建成楼盘的时候，将不会低于3万元/平方米。				      </p>
+				    <p>　　那么，“见贤思齐”，唐镇的楼盘买到3万元/平方米，张江还不得卖到3.5万？金桥还不得卖到4万？陆家嘴不得卖到10万？汤臣一品不得涨到20万/平方米？				      </p>
+				    <p>　　日益高涨的上海房价，没有一个人认为是合理的，但是却是铁一般的事实！				      </p>
+				    <p>　　想当年，汤臣一品推出11万元/平方米的天价“楼王”的时候，几乎所有的业内人士无不把徐枫女士当笑话来看，时隔四年，汤臣一品依然坚挺而且大量成交，徐枫女士终于可以笑傲江湖了。如今，超过10万元/平方米的楼盘全上海不少于十五个，天价楼盘不再是个案，而是代表了一个群体，一个新的市场需求。到底是徐枫们运气好，还是他们具有超人的、敏锐的、独到的眼光？				      </p>
+				    <p>　　那么，是什么原因造成了不合理却是事实的房价日益走高？				      </p>
+				    <p>　　第一，土地出让金收入已成为地方政府收入的主要来源。在一些地方，政府收取的土地出让金收入甚至已经超出财政税收。随着各级政府行政管理成本的不断增长，卖地收取土地出让金成为地方政府不可或缺的重要支柱。房价下跌造成政府收取土地出让金的减少，恐怕是各级政府都无法承受的。				      </p>
+				    <p>　　第二，房价的走高有利于促进GDP的增长。衡量各级政府政绩的一项重要指标是GDP的增长，而房价尽管没有列入居民消费CPI的统计范围，但是它对GDP的影响却是显而易见的。1990年，房地产业占上海GDP的比例是0.5％，1999年已经上升到5.2％，2005年上升到7.3％，2008年，房地产开发的投资额占全市固定资产投资比重达到28.3%。房地产对于固定资产投资额和扩大内需的意义实在太大，政府出于政绩的考虑，不会让房地产拖了GDP的后腿。				      </p>
+				    <p>　　第三，国际热钱的涌入推高房价。近年来，由于我国特别是上海经济的高速发展，吸引了不少国际投资机构的注意，出于看好上海经济良好的上升势头，以及对上海房地产利好的判断，大量热钱涌入上海，对上海房地产，尤其是高端房地产价格的快速上涨起到推波助澜的作用。而人民币升值的预期更是吸引国际投资机构投机上海房地产的重要因素。据凤凰卫视报道，有1万亿美元的游资在豪赌人民币升值。另据报道，有10亿海外资金通过种种渠道已经进入上海楼市。				      </p>
+				    <p>　　第四，国内制造业的萎缩使大量过剩资本进入楼市。受宏观经济形势的影响以及国际金融风暴的波及，中国的制造业出现了大幅度萎缩，在珠三角等地尤为显著。资本的逐利本质迫使大量的制造业资本流向其它领域，如股市和楼市。股市的巨大风险并不适合长期投资，那么楼市便顺理成章地吸纳了大量的过剩资本，而这些新注入的资本无疑进一步推高了房价。				      </p>
+				    <p>　　第五，购买房地产成为保值增值、抵御通货膨胀的有力武器。民意普遍认为中国正面临严重的通货膨胀，而房地产成为抵御通货膨胀的有效的硬通货。为了避免资产缩水，出于保值增值的需要，大量的民间资金涌向楼市，有些地方甚至出现了“恐慌性购房”。企业也是如此，其中不乏央企和大型国企，巨额资金纷纷流入土地市场，造成地王频现，只要有地，势在必得，以致于屡屡出现拍卖土地的楼面地价高于房价的咄咄怪事。面粉卖得比面包贵，等新面包做成后势必更贵。				      </p>
+				    <p>　　过去的已然过去，未来会是怎么样？				      </p>
+				    <p>　　政府不是采取措施打压房价了吗？个人普通住宅的营业税免征优惠措施不是取消了吗？中央五部委不是联合发文，土地出让金首付金额上调到50％了吗？国务院不是新颁发了“国十一条”力促地方政府调控房价了吗？错了！这些措施无异于扬汤止沸、隔靴抓痒。这些措施不仅不会遏制日益上涨的房价，相反会进一步增加交易和开发成本，只会使房价走向更高。				      </p>
+				    <p>　　政府并无真正打压房价的意思。认真领会2009年12月召开的中央经济工作会议的精神，就会对2010年的房地产市场走向有个大致的判断。本次中央经济工作会议涉及房地产行业的，有以下几个方面：1.继续保持积极的财政政策和适度宽松的货币政策；2.增加普通商品房供给，支持居民自住和改善性购房需求；3.放宽中小城市和城镇户籍限制。我们有理由认为，本次中央经济会议精神对2010年的房地产业将构成较大的利好。可以断言：如果没有重大的政策调整，2010年上海的房地产市场仍将火热。</p>
+				  </blockquote>			    </td>
+              </tr>
+            </table>
+			
+			
+			
+		<!--这里面是内容 -->			</td>
+            <td width="160" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x"><img src="images/jzsc.gif" width="113" height="366"></td>
+          </tr>
+          <tr>
+            <td height="87" colspan="2" valign="bottom" style="background-repeat:repeat-x"><table width="100%" height="53" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="53" align="center"><table width="529" height="41" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="190" height="41" align="right">版权所有 &copy; 2008-2016</td>
+                    <td width="28"><img src="images/gclogo.gif" width="28" height="28"></td>
+                    <td width="250"> 上海国城土地房地产估价有限公司 </td>
+                    <td width="126"><img src="images/guocheng_badge.gif" width="34" height="41"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+      </table></td>
+    </tr>
+</table>
+<table width="1000" height="32" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#ED1B24"><div align="center" class="STYLE2">    地址:上海市黄浦路99号(上海滩国际大厦)2210室 邮编:200080 电话:021-63830052 客服电话:021-56660607 传真:021-63830085<br>网址:http://www.gcgj.com.cn<br>友情链接：<a href="http://www.egutong.com.cn" target="_blank"><font color="#FFFFFF">e估通</font></a>
+  	<p><a href="http://www.miibeian.gov.cn" target="_blank">	<font color="#FFFFFF">ICP</font><font color="#FFFFFF">证: 沪ICP备10026994号</font></a></div></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>管理登录</title>
+<style type="text/css">
+body { background:#ABD4EF;}
+td { font-size:12px;}
+input {font-size:12px;}
+input.text { border:1px solid #999999; background:#EFF6FB; font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#166CA3; }
+input.button { border-width:1px;}
+.font11 { font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+</style>
+</head>
+
+<body>
+<div style="height:250px;width:403px;position:absolute;top:50%;left:50%;margin-top:-185px;margin-left:-201px;">
+	<div style="background:url(img/login.gif); height:46px;"></div>
+	<div style="border:1px solid #649EB2; height:204px;">
+		<div style="height:160px; background:#FFFFFF;">
+			<table width="100%" border="0" cellpadding="3" cellspacing="0">
+			<form id="form1" name="form1" method="post" action="check.asp">
+				<tr>
+					<td height="40" colspan="2">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="36%" align="right"><strong>用户名：</strong></td>
+					<td width="64%">
+					  <input name="userid" type="text" class="text" id="userid" maxlength="12" />
+					  
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><strong>密　码：</strong></td>
+					<td><input name="passwd" type="password" class="text" id="passwd" /></td>
+				</tr>
+				<tr>
+					<td align="right">&nbsp;</td>
+				  <td><input name="Submit" type="submit" class="button" value="登 录" />
+				    <input name="action" type="hidden" id="action" value="login" /></td>
+				</tr>
+				</form>
+		  </table>
+		</div>
+		<div class="font11" style="background:#F7F7E7; border-top:1px solid #DDDDDD; height:44px; color:#DDDDDD;">00031029</div>
+	</div>
+</div>
+</body>
+</html>

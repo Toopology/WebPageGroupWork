@@ -1,0 +1,285 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mainpage.master.cs" Inherits="mainpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+ <title>鑫順典当</title>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FF6600;
+}
+body,td,th {
+	font-size: 14px;
+}
+.STYLE1 {color: #CC0000}
+-->
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE2 {	color: #FFFFFF;
+	font-size: 14px;
+}
+    .style1
+    {
+        height: 15px;
+    }
+-->
+</style>
+<style>
+ul,li{
+padding:5px;
+}
+</style> 
+
+<style type="text/css">
+<!--
+     /*留言板*/
+#Layer1 {
+ position:fixed;
+ width:300px;
+ height:400px;
+ z-index:1;
+ right: 10px;
+ bottom: 0px;
+}
+    .auto-style1 {
+        width: 111px;
+        height: 112px;
+    }
+-->
+</style>
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+</script>
+</meta>
+</head>
+<body onload="'images/menu2_02.jpg','images/menu2_04.jpg','images/menu2_06.jpg','images/menu2_08.jpg','images/menu2_10.jpg','images/menu2_12.jpg','images/menu2_14.jpg';MM_preloadImages('images/menu2_js.jpg','images/menu2_llian.jpg','images/menu2_tdui.jpg')">
+
+     <form id="form2" runat="server">
+     
+         <div id="Layer1" style="height:390px; width:400px; background-color:#FFD700" align="center" >
+         <h1>留言板</h1>
+                         <asp:TextBox ID="messageTXT" runat="server" Height="150px" Width="300px" TextMode="MultiLine">请将留言内容在此输入，谢谢！</asp:TextBox>                     
+                    <label>
+                        <span>&nbsp;<br/></span> 
+                      <span>先生<asp:RadioButton ID="RadioButton1" runat="server" Checked="True" GroupName="sex" />
+                          女士<asp:RadioButton ID="RadioButton2" runat="server"  GroupName="sex" /></span>
+                        <span>&nbsp;<br/></span> 
+                     </label>   
+              <label>                  
+                        <span>&nbsp;<br/></span> 
+                         <span> 姓&nbsp;&nbsp;&nbsp;&nbsp;名 : </span>        
+                        <asp:TextBox ID="MessName" runat="server"></asp:TextBox>                                                   
+                    </label>    
+                    <span>&nbsp;<br/></span>                                              
+                    <label>      
+                          <span> 邮箱地址 :</span>
+                          <asp:TextBox ID="MessEmail" runat="server"></asp:TextBox>
+                    </label>        
+                        <span>&nbsp;<br/></span> 
+                       
+                     <label>
+                        <span> 联系方式 :</span>
+                        <asp:TextBox ID="Messphone" runat="server"></asp:TextBox>                         
+                     </label>  
+                        <span>&nbsp;<br/></span>                    
+                   <label>
+                       <span>&nbsp;<br/></span> 
+                  
+                     </label>  
+                     
+              <asp:Button ID="Button1" runat="server" Text="留 言" OnClick ="Button1_Click" CausesValidation="False" Width="60px" />
+              
+                    </div>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/aboutus_01.jpg" width="1000" height="114"></td>
+  </tr>
+</table>
+
+<!--菜单表格 -->
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="28" align="center" bgcolor="#ED1B24">
+	<table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/menu2_02.jpg',1)"><img src="images/menu_02.jpg" alt="首页" name="home" width="84" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_abt.style.display='block'"
+onmouseout="myMenu_abt.style.display='none'">
+          <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+            <div id=myMenu_abt style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">
+              <table width="80" height="77" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="2" bgcolor="#ffffff"></td>
+                </tr>
+                <tr>
+                  <td><a href="aboutus.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('company','','images/menu2_aboutus.jpg',1)"><img src="images/menu_aboutus.jpg" alt="公司简介" name="company" width="112" height="29" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="gongsizizhi.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gongsizizhi','','images/menu2_zz.jpg',1)"><img src="images/menu_zz.jpg" alt="公司资质" name="gongsizizhi" width="112" height="29" border="0"></a></td>
+                </tr>
+				<tr>
+                  <td height="1" bgcolor="#ffffff"></td>
+                </tr>
+                <tr>
+                  <td><a href="Linian.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lilian','','images/menu2_lilian.jpg',1)"><img src="images/menu_lilian.jpg" alt="经营理念" name="lilian" width="112" height="29" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td height="1" bgcolor="#ffffff"></td>
+                </tr>
+                <tr>
+                  <td><a href="fuwu.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fuwu','','images/menu2_fu.jpg',1)"><img src="images/menu_fu.jpg" alt="服务范围" name="fuwu" width="112" height="29" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td height="1" bgcolor="#ffffff"></td>
+                </tr>
+                <tr>
+                  <td><a href="fuwuliucheng.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fuwuliucheng','','images/menu2_lc.jpg',1)"><img src="images/menu_lc.jpg" alt="服务流程" name="fuwuliucheng" width="112" height="29" border="0"></a></td>
+                </tr>
+				<tr>
+                  <td height="1" bgcolor="#ffffff"></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aboutus','','images/menu2_04.jpg',1)"><img src="images/menu_04.jpg" alt="关于我们" name="aboutus" width="112" height="28" border="0"></a></div>
+        </div></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="mendian.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('md','','images/menu2_md.jpg',1)"><img src="images/menu_md.jpg" alt="门店掠影" name="md" width="114" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td>
+		<div onMouseOver="myMenu_build.style.display='block'"
+onmouseout="myMenu_build.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_build style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">
+                <table width="80" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="ddhg.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ddhg','','images/menu2_ddhg.jpg',1)"><img src="images/menu_ddhg.jpg" alt="典当行规" name="ddhg" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="hwdd.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('hwdd','','images/menu2_hwdd.jpg',1)"><img src="images/menu_hwdd.jpg" alt="海外典当" name="hwdd" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+			
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('build','','images/menu2_08.jpg',1)"><img src="images/menu_08.jpg" alt="信息中心" name="build" width="114" height="28" border="0"></a></div>
+        </div>		</td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+                <td><a href="jdpxs.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jdp','','images/menu2_jdp.jpg',1)"><img src="images/menu_jdp.jpg" alt="绝当品销售" name="jdp" width="114" height="28" border="0"></a></td>
+<td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+          <td><a href="job.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/menu2_job.jpg',1)"><img src="images/menu_job.jpg" alt="招贤纳才" name="job" width="114" height="28" border="0"></a></td><td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="contactus.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Contactus','','images/menu2_12.jpg',1)"><img src="images/menu_12.jpg" alt="联系我们" name="Contactus" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="#" onClick="javascript:window.external.addfavorite('http://www.xsdd.com.cn','鑫顺典当')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('favorite','','images/menu2_14.jpg',1)"><img src="images/menu_14.jpg" alt="加入收藏" name="favorite" width="112" height="28" border="0"></a></td>
+        <td>　</td>
+      </tr>
+    </table>
+	</td>
+  </tr>
+</table>
+
+<!--菜单表格 -->
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="background-repeat:no-repeat; background-position:bottom">
+  <tr>
+    <td height="31" colspan="2" background="images/aboutus_03.jpg">　</td>
+  </tr>
+</table>
+<table width="1000" height="509" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
+	<tr>
+		<td height="462" colspan="2" valign="top" bgcolor="#FFFFFF" style=" background-attachment:fixed; background-image:url(images/dfmz_bg.jpg); background-position:bottom; background-repeat:no-repeat;"><table width="1000" height="537" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="840" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x">
+			
+			<!--这里面是内容 -->
+			
+			<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="23"><div align="right" class="STYLE1" class="main"> <asp:ContentPlaceHolder ID="HeadContent" runat="server"/>
+        </div></td>
+              </tr>
+              <tr>
+                <td height="15" align="right"><img src="images/line.jpg" width="512" height="5"></td>
+              </tr>
+             <td> <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div></td>
+            </table>
+		<!--这里面是内容 -->			</td>
+            <td width="160" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x"><img src="images/jzsc.gif" width="113" height="366"></td>
+          </tr>
+          <tr>
+            <td height="87" colspan="2" valign="bottom" style="background-repeat:repeat-x"><table width="100%" height="53" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="53" align="center"><table width="348" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="110" align="right">版权所有 &copy; 2016</td>
+                    <td width="28" align="center"><img src="images/btxs.gif" width="28" height="28"></td>
+                    <td width="176">上海鑫顺典当有限责任公司</td>
+                    <td width="34"><img src="images/xingshun_badge.gif" width="34" height="41"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+    </tr>
+</table>
+<table width="1000" height="32" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#ED1B24"><div align="center" class="STYLE2">上海鑫顺典当有限责任公司 黄浦路99号22楼2208室  网址: http://www.xsdd.com.cn   &nbsp;&nbsp;<a href="http://www.miibeian.gov.cn" target="_blank"><font color="#FFFFFF">ICP证: 沪ICP备07004052号</font></a></div>
+<div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010902001546" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="gszz/batb.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">沪公网安备 31010902001546号</p></a>
+		 	</div>
+</td>
+  </tr>
+</table>
+    </form>
+     
+      <div  style="text-align:center" >  <p> <img alt="weixin" class="auto-style1" src="images/weixinToWangzhan.jpg" /></p> </div>
+
+</body>
+</html>

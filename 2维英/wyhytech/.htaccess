@@ -1,0 +1,25 @@
+RewriteEngine on
+RewriteRule ^index.html$ index.php
+
+RewriteRule ^products/products.htm$ products/products.php
+RewriteRule ^products/products-([0-9]*).htm$ products/products.php?id=$1
+RewriteRule ^products/products-([0-9]*)-([0-9]*).htm$ products/products.php?id=$1&pid=$2
+
+RewriteRule ^solution/solution.htm$ solution/solution.php
+RewriteRule ^solution/solution-([0-9]*).htm$ solution/solution.php?id=$1
+
+RewriteRule ^technical/download.htm$ technical/download.php
+RewriteRule ^technical/download-([0-9]*)-([0-9]*).htm$ technical/download.php?id=$1&page=$2
+RewriteRule ^technical/viewpoint-([0-9]*)-([0-9]*).htm$ technical/viewpoint.php?id=$1&page=$2
+RewriteRule ^technical/viewpoint-show-([0-9]*).htm$ technical/viewpoint-show.php?id=$1
+
+
+RewriteRule ^contact/contact-([0-9]*).htm$ contact/contact.php?id=$1
+RewriteRule ^contact/talent-([0-9]*)-([0-9]*).htm$ contact/talent.php?id=$1&page=$2
+RewriteRule ^contact/message.htm$ contact/message.php
+
+RewriteRule ^about/about.htm$ about/about.php
+RewriteRule ^about/about-([0-9]*).htm$ about/about.php?id=$1
+RewriteRule ^about/client-list-([0-9]*).htm$ about/client-list.php?id=$1
+RewriteRule ^about/news-list-([0-9]*)-([0-9]*).htm$ about/news-list.php?id=$1&page=$2
+RewriteRule ^about/news-show-([0-9]*).htm$ about/news-show.php?id=$1

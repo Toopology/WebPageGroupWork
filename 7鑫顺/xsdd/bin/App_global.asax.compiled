@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/xsdd-web/global.asax" hash="ffffffffc8f65744" filehash="ffffe03bddd23605" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+    <filedeps>
+        <filedep name="/xsdd-web/global.asax" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,108 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="BackOffice_MasterPage, App_Web_lb50vhkj" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 911px;
+        }
+        .style2
+        {
+            font-family: 幼圆;
+            font-size: small;
+        }
+        .style3
+        {
+            font-family: 幼圆;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    鑫顺典当后台管理 <span class="style3">&nbsp;</span>
+                    <span class="style2">v20120109</span>
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/AboutUs.aspx" 
+                    Target="_blank">[网站首页]</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:LoginName ID="LoginName1" runat="server" />
+        &nbsp;&nbsp;&nbsp; <asp:LoginStatus ID="LoginStatus1" runat="server" 
+            LogoutAction="Redirect" LogoutPageUrl="~/Login.aspx" />
+            </div>
+            <div class="clear hideSkiplink">
+  
+              <asp:Menu ID="NavigationMenuAdmin" runat="server" CssClass="menu" 
+                    EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" 
+                    RenderingMode="List">
+                    <Items>
+                        <asp:MenuItem Text="信息中心" Value="信息中心">
+                            <asp:MenuItem 
+                                Text="典当行规" Value="典当行规">
+                                <asp:MenuItem NavigateUrl="~/Datainput/info_center/Entry.aspx?type=0&method=1" Text="新增" 
+                                    Value="新增"></asp:MenuItem>
+                                <asp:MenuItem Text="管理" Value="管理" 
+                                    NavigateUrl="~/Datainput/info_center/List.aspx?type=典当行规&status=1"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="典当动态" Value="典当动态">
+                                <asp:MenuItem NavigateUrl="~/Datainput/info_center/Entry.aspx?type=1&amp;method=1" Text="新增" 
+                                    Value="新增"></asp:MenuItem>
+                                <asp:MenuItem Text="管理" Value="管理" 
+                                    NavigateUrl="~/Datainput/info_center/List.aspx?type=典当动态&status=1"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="绝当品销售" Value="绝当品销售">
+                            <asp:MenuItem NavigateUrl="~/Datainput/Product/Entry.aspx?method=1" Text="新增" 
+                                Value="新增"></asp:MenuItem>
+                            <asp:MenuItem Text="管理" Value="管理" NavigateUrl="~/Datainput/Product/List.aspx?status=1"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="设置" Value="设置">
+                            <asp:MenuItem NavigateUrl="~/Datainput/ChangePswd/ChangePassword.aspx" 
+                                Text="修改密码" Value="修改密码"></asp:MenuItem>
+                            <asp:MenuItem Text="管理员工具" Value="管理员工具" NavigateUrl="~/Admin/Default.aspx"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            &nbsp;&nbsp;&nbsp;
+
+            </div>
+        </div>
+        <div class="main">
+            <table style="width: 97%;">
+                <tr>
+                    <td align="right" class="style1">
+                        <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click"  
+            >返回</asp:LinkButton>
+                    </td>
+                </tr>
+            </table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" ViewStateMode="Enabled"/>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        绝当品（不含后台）页面访问量累计:<asp:Label 
+            ID="lb_count" runat="server"></asp:Label>
+            ，当天:<asp:Label 
+            ID="lb_counttoday" runat="server"></asp:Label>
+            <br />
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<div class="topnav">
+    <a href="admin_products.php?act=list" {#if $act=='list'#}class="select"{#/if#}><u>产品列表</u></a>
+    <a href="admin_products.php?act=products_add" {#if $act=='products_add'#}class="select"{#/if#}><u>添加产品</u></a>
+    <a href="?act=category" {#if $act=="category" || $act=="category_add" ||  $act=="edit_category"#}class="select"{#/if#}><u>产品分类</u></a>
+<div class="clear"></div>
+</div>

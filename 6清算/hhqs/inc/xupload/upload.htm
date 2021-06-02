@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<style>
+body,form { background:#EEF7FD; margin:0; padding:0}
+input { border-width:1px;}
+</style>
+<script language="JavaScript">
+<!--
+function getFileExtension(filePath) { //v1.0
+  fileName = ((filePath.indexOf('/') > -1) ? filePath.substring(filePath.lastIndexOf('/')+1,filePath.length) : filePath.substring(filePath.lastIndexOf('\\')+1,filePath.length));
+  return fileName.substring(fileName.lastIndexOf('.')+1,fileName.length);
+}
+
+function checkFileUpload(form,extensions) { //v1.0
+  document.MM_returnValue = true;
+  if (extensions && extensions != '') {
+    for (var i = 0; i<form.elements.length; i++) {
+      field = form.elements[i];
+      if (field.type.toUpperCase() != 'FILE') continue;
+      if (field.value == '') {
+        alert('文件框中必须保证已经有文件被选中!');
+        document.MM_returnValue = false;field.focus();break;
+      }
+      if (extensions.toUpperCase().indexOf(getFileExtension(field.value).toUpperCase()) == -1) {
+        alert('这种文件类型不允许上传!.\n只有以下类型的文件才被允许上传: ' + extensions + '.\n请选择别的文件并重新上传.');
+        document.MM_returnValue = false;field.focus();break;
+  } } }
+}
+
+function doPreview(){
+	var url = document.form1.strPhoto.value;
+	if (url.lastIndexOf(".")<=0){
+		return;
+	}
+	else{
+		parent.document.all('tdPreview').style.display = "";
+		parent.document.all('tdPreview').innerHTML = "<a href='###' onclick='javascript:tdPreview.style.display = \"none\";'>关闭预览</a><br/><img width=500 border=0 src='"+url+"'><br/><a href='###' onclick='javascript:tdPreview.style.display = \"none\";'>关闭预览</a>";
+	}
+}
+//-->
+</script>
+</head>
+
+<body>
+	<form action="upload.asp" enctype="multipart/form-data" name="form1" method="post" onSubmit="checkFileUpload(this,'GIF,JPG,JPEG,PNG');return document.MM_returnValue">
+	<input size="20" name="strPhoto" type="file" id="strPhoto" onChange="try{doPreview();} catch(e){}" />
+	<input type="submit" name="Submit" value="提  交" />
+<script>
+var URLParams = new Object() ;
+var aParams = document.location.search.substr(1).split('&') ;
+for (i=0 ; i < aParams.length ; i++) {
+var aParam = aParams[i].split('=') ;
+URLParams[aParam[0]] = aParam[1] ;
+}
+
+var iname = URLParams["iname"] ;
+document.write("<input type=\"hidden\" name=\"iname\" value=\""+iname+"\" />");
+</script>
+	
+	</form>
+</body>
+</html>

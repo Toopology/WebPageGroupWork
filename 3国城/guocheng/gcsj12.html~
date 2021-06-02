@@ -1,0 +1,849 @@
+<html>
+<head>
+<title>国城估价 - 国城视界</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FF6600;
+}
+body,td,th {
+	font-size: 14px;
+}
+.STYLE1 {
+	color: #CC0000;
+	text-decoration: none;
+}
+-->
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE2 {	color: #FFFFFF;
+	font-size: 14px;
+}
+.STYLE3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body onLoad="'images/menu2_02.jpg','images/menu2_04.jpg','images/menu2_06.jpg','images/menu2_08.jpg','images/menu2_10.jpg','images/menu2_12.jpg','images/menu2_14.jpg';MM_preloadImages('images/menu2_company.jpg','images/menu2_zz.jpg','images/menu2_fu.jpg','images/menu2_lc.jpg','images/menu2_gjcs.jpg','images/menu2_fg.jpg','images/menu2_job.jpg')">
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/aboutus_01.jpg" width="1000" height="114"></td>
+  </tr>
+</table>
+
+<!--菜单表格 -->
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="28" align="center" bgcolor="#ED1B24"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/menu2_02.jpg',1)"><img src="images/menu_02.jpg" alt="首页" name="home" width="84" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_wh.style.display='block'"
+onmouseout="myMenu_wh.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_wh style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">
+                <table width="80" height="77" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('company','','images/menu2_company.jpg',1)"><img src="images/menu_company.jpg" alt="公司简介" name="company" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="cert.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cert','','images/menu2_zz.jpg',1)"><img src="images/menu_zz.jpg" alt="公司资质" name="cert" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>				  <tr>
+                    <td><a href="lilian.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lilian','','images/menu2_lilian.jpg',1)"><img src="images/menu_lilian.jpg" alt="经营理念" name="lilian" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="fuwu.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fuwu','','images/menu2_fu.jpg',1)"><img src="images/menu_fu.jpg" alt="服务范围" name="fuwu" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="liucheng.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('liucheng','','images/menu2_lc.jpg',1)"><img src="images/menu_lc.jpg" alt="服务流程" name="liucheng" width="112" height="29" border="0"></a></td>
+                  </tr>
+           <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="jigou.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jigou','','images/menu2_jg.jpg',1)"><img src="images/menu_jg.jpg" alt="合作机构" name="jigou" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aboutus','','images/menu2_04.jpg',1)"><img src="images/menu_04.jpg" alt="关于我们" name="aboutus" width="112" height="28" border="0"></a></div>
+        </div></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="pgs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pgs','','images/menu2_06.jpg',1)"><img src="images/menu_06.jpg" alt="评估案例" name="pgs" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_build.style.display='block'"
+onmouseout="myMenu_build.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_build style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">                <table width="80" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="flfg.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('flfg','','images/menu2_fg.jpg',1)"><img src="images/menu_fg.jpg" alt="法律法规" name="flfg" width="112" height="29" border="0"></a></td>
+                  </tr>
+		 <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="gjcs.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gjcs','','images/menu2_gjcs.jpg',1)"><img src="images/menu_gjcs.jpg" alt="估价常识" name="gjcs" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('build','','images/menu2_08.jpg',1)"><img src="images/menu_08.jpg" alt="信息中心" name="build" width="112" height="28" border="0"></a></div>
+        </div></td>
+		
+		<td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="gcsj_all.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sj','','images/menu2_sj.jpg',1)"><img src="images/menu_sj.jpg" alt="国城视界" name="sj" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="job.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/menu2_job.jpg',1)"><img src="images/menu_job.jpg" alt="招贤纳才" name="job" width="114" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="contactus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contactus','','images/menu2_10.jpg',1)"><img src="images/menu_10.jpg" alt="联系我们" name="contactus" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="#" onClick="javascript:window.external.addfavorite('http://www.gcgj.com.cn','国城估价')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('favorite','','images/menu2_14.jpg',1)"><img src="images/menu_14.jpg" alt="加入收藏" name="favorite" width="112" height="28" border="0"></a></td>
+        <td>　</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<!--菜单表格 -->
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="background-repeat:no-repeat; background-position:bottom">
+  <tr>
+    <td height="31" colspan="2" background="images/aboutus_03.jpg">　</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
+	<tr>
+		<td colspan="2" valign="top" bgcolor="#FFFFFF" style=" background-attachment:fixed; background-image:url(images/dfmz_bg.jpg); background-position:bottom; background-repeat:no-repeat;"><table width="1000" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="840" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x">
+			
+			<!--这里面是内容 -->
+			
+			<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="23"><div align="right" class="STYLE1">首页 -&gt; 国城视界</div></td>
+              </tr>
+              <tr>
+                <td height="15" align="right"><img src="images/line.jpg" width="512" height="5"></td>
+              </tr>
+              <tr>
+			     <td height="6" class="t13"><p>　　</p>
+                  <p align="center" class="STYLE3">上海二手房指数历史数据</p>
+				  <table width="340" height="35" border="1" align="center" bordercolor="#B3890B">
+					<tr>
+          				<td width="90" height="29" class="main-txt"><div align="center"><p class="basic">年份</p></div></td>
+         				<td width="70" class="main-txt"><div align="center"><p class="basic">月份</p></div></td>
+          				<td width="90" class="main-txt"><div align="center"><p class="basic">指数</p></div></td>
+						<td width="100" class="main-txt"><div align="center"><p class="basic">较上月涨幅</p></div></td>
+        			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2001</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">11</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1000</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">基期</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2001</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">12</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.80%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1010</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.20%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1012</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.19%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1017</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.49%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">4</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1027</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.98%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">5</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1034</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.68%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1042</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.77%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">7</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1048</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.57%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">8</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1051</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.29%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">9</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1054</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.28%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">10</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1056</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.19%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">11</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1061</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.47%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2002</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">12</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1072</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt" colspan="3"><div align="center"><p class="basic">2002年度指数增长幅度</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6.35%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1080</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.75%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1090</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.92%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1102</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.10%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">4</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1115</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.20%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">5</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1125</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.90%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1137</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">7</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1150</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.10%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">8</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1173</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">9</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1194</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.80%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">10</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1215</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.76%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">11</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1236</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.70%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2003</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">12</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1255</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.50%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt" colspan="3"><div align="center"><p class="basic">2003年度指数增长幅度</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">17.07%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1273</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.40%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1289</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.26%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1304</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.16%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">4</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1319</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.10%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">5</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1336</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.20%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1350</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">7</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1366</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">8</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1382</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.10%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">9</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1399</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.20%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">10</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1418</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.30%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">11</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1448</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2.10%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2004</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">12</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1490</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2.90%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt" colspan="3"><div align="center"><p class="basic">2004年度指数增长幅度</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">18.73%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1547</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3.80%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1611</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">4.10%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1669</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3.60%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">4</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1703</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">5</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1714</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.60%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1710</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.20%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">7</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1705</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.50%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">8</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1700</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.30%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">9</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1689</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.60%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">10</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1667</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.70%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">11</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1661</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.90%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2005</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">12</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1647</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.80%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt" colspan="3"><div align="center"><p class="basic">2005年度指数增长幅度</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">10.54%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1625</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.13%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1620</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.30%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1616</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.20%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">4</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1621</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.30%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">5</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1625</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.20%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1627</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.10%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">7</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1632</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.30%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">8</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1635</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.20%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">9</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1634</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.06%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">10</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1634</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.00%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">11</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1635</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.09%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2006</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">12</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1637</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.16%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt" colspan="3"><div align="center"><p class="basic">2006年度指数增长幅度</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.6%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1639</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.10%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1642</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.22%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1648</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.37%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">4</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1657</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.54%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">5</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1681</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.46%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">1751</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">4.16%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">7</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1820</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3.94%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">8</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1930</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6.03%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">9</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">4.09%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">10</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2089</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3.97%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">11</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2185</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">4.61%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2007</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">12</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2217</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.50%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt" colspan="3"><div align="center"><p class="basic">2007年度指数增长幅度</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">35.43%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2246</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.30%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2271</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.10%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2315</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.96%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">4</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2339</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.03%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">5</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2362</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.98%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2387</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.05%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">7</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2396</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.38%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">8</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2385</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.45%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">9</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2360</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-1.07%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">10</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2338</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.91%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">11</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2319</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.82%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2008</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">12</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2316</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.15%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt" colspan="3"><div align="center"><p class="basic">2008年度指数增长幅度</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">4.47%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2297</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.79%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2293</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">-0.20%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">3</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2318</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.12%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">4</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2348</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.26%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">5</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2370</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.95%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">6</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2398</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.18%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">7</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2427</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.23%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">8</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2442</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.62%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">9</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2459</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.69%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">10</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2471</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.48%</p></div></td>
+         			</tr>
+					<tr>
+          				<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">11</p></div></td>
+          				<td class="main-txt"><div align="center"><p class="basic">2489</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">0.73%</p></div></td>
+       				</tr>
+					<tr>
+            			<td class="main-txt"><div align="center"><p class="basic">2009</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">12</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">2519</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">1.20%</p></div></td>
+         			</tr>
+					<tr>
+            			<td class="main-txt" colspan="3"><div align="center"><p class="basic">2009年度指数增长幅度</p></div></td>
+						<td class="main-txt"><div align="center"><p class="basic">8.77%</p></div></td>
+         			</tr>
+				   </table>
+				 	
+					<p align="center">数据来源：上海二手房指数办公室</p>
+				 </td>
+              </tr>
+            </table>
+			
+			
+			
+		<!--这里面是内容 -->			</td>
+            <td width="160" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x"><img src="images/jzsc.gif" width="113" height="366"></td>
+          </tr>
+          <tr>
+            <td height="87" colspan="2" valign="bottom" style="background-repeat:repeat-x"><table width="100%" height="53" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="53" align="center"><table width="529" height="41" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="190" height="41" align="right">版权所有 &copy; 2008-2016</td>
+                    <td width="28"><img src="images/gclogo.gif" width="28" height="28"></td>
+                    <td width="250"> 上海国城土地房地产估价有限公司 </td>
+                    <td width="126"><img src="images/guocheng_badge.gif" width="34" height="41"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+      </table></td>
+    </tr>
+</table>
+<table width="1000" height="32" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#ED1B24"><div align="center" class="STYLE2">    地址:上海市黄浦路99号(上海滩国际大厦)2210室 邮编:200080 电话:021-63830052 客服电话:021-56660607 传真:021-63830085<br>网址:http://www.gcgj.com.cn<br>友情链接：<a href="http://www.egutong.com.cn" target="_blank"><font color="#FFFFFF">e估通</font></a>
+  	<p><a href="http://www.miibeian.gov.cn" target="_blank">	<font color="#FFFFFF">ICP</font><font color="#FFFFFF">证: 沪ICP备10026994号</font></a></div></td>
+  </tr>
+</table>
+</body>
+</html>

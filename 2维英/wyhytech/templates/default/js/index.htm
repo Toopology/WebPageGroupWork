@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{#$SYS.site_name#}</title>
+		<!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>-->
+		<link href="{#$SYS.site_template#}css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link data-turbolinks-track="true" href="{#$SYS.site_template#}css/banner.css" media="all" rel="stylesheet">
+		<link rel="stylesheet" href="{#$SYS.site_template#}css/ionicons.min.css">
+		<link href="{#$SYS.site_template#}css/css.css" rel="stylesheet" type="text/css"/>
+		<script src="{#$SYS.site_template#}js/jquery-1.8.3.min.js"></script>
+		<script src="{#$SYS.site_template#}js/megamenu.js"></script>
+		<script src="{#$SYS.site_template#}js/bootstrap.min.js" ></script>
+		
+      <script data-turbolinks-track="true" src="{#$SYS.site_template#}js/banner.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maxmum-scale=1.0,minimum-scale=1.0">
+	</head>
+	<body>
+		<div data="null" id="user-data"></div>
+	<div data="{&quot;id&quot;:9217043,&quot;created_at&quot;:&quot;2016-10-09T05:02:47.000Z&quot;,&quot;updated_at&quot;:&quot;2016-10-01T05:02:47.000Z&quot;,&quot;item_ids&quot;:[],&quot;productsTotal&quot;:0.0,&quot;utensilsTotal&quot;:0,&quot;earliestDeliveryDate&quot;:null,&quot;undeliverDate&quot;:{&quot;1&quot;:[],&quot;2&quot;:[],&quot;3&quot;:[],&quot;4&quot;:[]}}" id="shopping-cart-data"></div>
+	{#include file='header.htm'#}
+		<!--banner-->
+        <div class="swiper-container pc-slideshows-swiper swiper-container-horizontal " id="front-page-carousel">
+			<div class="swiper-wrapper " style="transition-duration: 0ms; transform: translate3d(-3166px, 0px, 0px);">
+			{#picture_ad set="显示数目:3,调用名称:indexfocus,列表名:ad"#}
+			{#foreach from=$ad  item=list#}
+			<div class="swiper-slide" style="width: 1583px;">
+				<a href="{#$list.img_url#}">
+					<img src="{#$SYS.upfiles_dir#}{#$list.imgurl#}">
+				</a>
+			</div>
+			{#/foreach#}
+
+		</div>
+		<div class="swiper-pagination pc-swiper-pagination swiper-pagination-clickable">
+			<span class="swiper-pagination-bullet"></span>
+			<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+			<span class="swiper-pagination-bullet"></span>
+		</div>
+	</div>
+	<div class="swiper-container mobile-slideshows-swiper swiper-container-horizontal" id="mobile-front-page-carousel">
+		<div class="swiper-wrapper" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);">
+			{#picture_ad set="显示数目:3,调用名称:indexfocus,列表名:ad"#}
+			{#foreach from=$ad  item=list#}
+			<div class="swiper-slide" style="width: 703px">
+				<a href="{#$list.img_url#}">
+					{#if $list.simgurl!=''#}<img src="{#$SYS.upfiles_dir#}{#$list.simgurl#}">{#else#}<img src="{#$SYS.upfiles_dir#}{#$list.imgurl#}">{#/if#}
+				</a>
+			</div>
+			{#/foreach#}
+		</div>
+		<div class="swiper-pagination mobile-swiper-pagination swiper-pagination-clickable">
+			<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+			<span class="swiper-pagination-bullet"></span>
+			<span class="swiper-pagination-bullet"></span>
+		</div>
+	</div>
+
+ <script type="text/javascript" async="" src="{#$SYS.site_template#}js/r.js"></script><script>
+  $(document).ready(function(){
+    Pantrysbest.SwiperPantry.init();
+  });
+</script>
+
+        <!--banner结束-->
+        <!--关于我们-->
+        <section>
+        	<div class="container">
+        		<div class="abouts">
+        		    <div class="about-title">
+        		    	<h3>关于我们</h3>
+        		    	<p>{#$about.seo_description#}</p>
+        		    </div>
+        		    <div class="row about-lei">
+        		    	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 row-about">
+        		    		<img src="images/index_09.jpg">
+        		    		<span>技术研发</span>
+        		    	</div>
+        		    	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 row-about">
+        		    		<img src="images/index_11.jpg">
+        		    		<span>产品研究</span>
+        		    	</div>
+        		    	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 row-about">
+        		    		<img src="images/index_13.jpg">
+        		    		<span>咨询顾问</span>
+        		    	</div>
+        		    	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 row-about">
+        		    		<img src="images/index_15.jpg">
+        		    		<span>定制服务</span>
+        		    	</div>
+        		    	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 row-about">
+        		    		<img src="images/index_17.jpg">
+        		    		<span>投资管理</span>
+        		    	</div>
+        		    </div>
+        	    </div>
+        	</div>
+        </section>
+         <!--关于我们结束-->
+         <!--易估通介绍-->
+         <section style="background-color: #f8f8f8; margin-top: 50px; padding-bottom: 50px;">
+         	<div class="container">
+         		<div class="about-title">
+        		    	<h3>易估通介绍</h3>
+        		    	<p>{#$ygt.seo_description#}</p>
+        		    </div>
+        		    <div class="slider center">
+						{#foreach from=$imgs item=list#}
+						<div><img src="{#$SYS.thumb_dir#}{#$list#}" class="img-responsive"></div>
+						{#/foreach#}
+				</div>
+				
+
+         	</div>
+         </section>
+         <!--易估通介绍结束-->
+         <!--新闻动态开始-->
+         <section>
+         	<div class="container">
+         		<div class="about-title">
+        		    	<h3>最新动态</h3>       		    	
+        		</div>
+         		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li class="" data-target="#myCarousel" data-slide-to="1"></li>
+        <li class="" data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+		{#foreach from=$news item=list#}
+        <div {#if $list.num==1#} class="item active"{#else#} class="item"{#/if#} >
+            <a href="#">
+              <h4>{#$list.title#}</h4>
+              <p>{#$list.seo_description#}</p>
+            </a>
+        </div>
+		{#/foreach#}
+
+    </div>
+    
+</div>
+         	</div>
+         	<style>
+         		.carousel-inner .item{ height: auto; background: none; width: 80%; text-align: center; margin: 0 auto; margin-bottom: 70px;}
+         		.carousel-inner .item a h4{ color: #000; font-size: 22px; font-weight: normal; margin-top: 40px;}
+         		.carousel-inner .item a p{ color: #666; margin-top: 20px; line-height: 30px;}
+         		.carousel-inner .item a:hover{ text-decoration: none;}
+         		.carousel-indicators{ text-align: center; }
+         		.carousel-indicators li{ border-radius:0px; background-color: #b3b3b3; border: none;}
+         		.carousel-indicators li.active{ background-color: #333333;border: none;}
+         		@media (min-width:1200px) {
+         			
+	             .carousel-inner .item{min-height: auto;}
+                }
+                @media (max-width:960px) {
+         			
+	             .carousel-inner .item{min-height: auto;}
+                }
+                @media  screen(min-width:768px) and (max-width: 960px) {
+                  .menu-container {
+                     .carousel-inner .item{min-height: auto;}
+                    }
+                    
+                }
+                
+                @media (max-width:480px) {
+         			
+	             .carousel-inner .item{min-height: auto;width: 90%;}
+                }
+         	</style>
+         </section>
+         <!--新闻动态结束-->
+         <!--解决方案开始-->
+         <section style="background-color: #f8f8f8; margin-top: 50px; padding-bottom: 50px;">
+         	<div class="container">
+         		<div class="about-title">
+        		    	<h3>解决方案</h3>       		    	
+        		</div>
+        		<div class="slider autoplay">
+					{#foreach from=$solution item=list#}
+					<div>
+						<div class="su-fan">
+							<div class="su-img"></div>
+						<h3></h3>
+						<h4>{#$list.title#}</h4>
+						<p>{#$list.seo_description#}</p>
+						</div>
+					</div>
+					{#/foreach#}
+
+				</div>
+         	</div>
+         </section>
+         <!--解决方案结束-->
+         <!--底部开始-->
+		{#include file='footer.htm'#}
+         <script type="text/javascript" src="{#$SYS.site_template#}js/slick.js" ></script>
+<script type="text/javascript" src="{#$SYS.site_template#}js/js.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,298 @@
+<html>
+<head>
+<title>国城估价 - 国城视界</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FF6600;
+}
+body,td,th {
+	font-size: 14px;
+}
+.STYLE1 {
+	color: #CC0000;
+	text-decoration: none;
+}
+-->
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE2 {	color: #FFFFFF;
+	font-size: 14px;
+}
+.STYLE3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body onLoad="'images/menu2_02.jpg','images/menu2_04.jpg','images/menu2_06.jpg','images/menu2_08.jpg','images/menu2_10.jpg','images/menu2_12.jpg','images/menu2_14.jpg';MM_preloadImages('images/menu2_company.jpg','images/menu2_zz.jpg','images/menu2_fu.jpg','images/menu2_lc.jpg','images/menu2_gjcs.jpg','images/menu2_fg.jpg','images/menu2_job.jpg')">
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/aboutus_01.jpg" width="1000" height="114"></td>
+  </tr>
+</table>
+
+<!--菜单表格 -->
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="28" align="center" bgcolor="#ED1B24"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/menu2_02.jpg',1)"><img src="images/menu_02.jpg" alt="首页" name="home" width="84" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_wh.style.display='block'"
+onmouseout="myMenu_wh.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_wh style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">
+                <table width="80" height="77" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('company','','images/menu2_company.jpg',1)"><img src="images/menu_company.jpg" alt="公司简介" name="company" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="cert.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cert','','images/menu2_zz.jpg',1)"><img src="images/menu_zz.jpg" alt="公司资质" name="cert" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>				  <tr>
+                    <td><a href="lilian.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lilian','','images/menu2_lilian.jpg',1)"><img src="images/menu_lilian.jpg" alt="经营理念" name="lilian" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="fuwu.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fuwu','','images/menu2_fu.jpg',1)"><img src="images/menu_fu.jpg" alt="服务范围" name="fuwu" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="liucheng.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('liucheng','','images/menu2_lc.jpg',1)"><img src="images/menu_lc.jpg" alt="服务流程" name="liucheng" width="112" height="29" border="0"></a></td>
+                  </tr>
+           <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="jigou.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jigou','','images/menu2_jg.jpg',1)"><img src="images/menu_jg.jpg" alt="合作机构" name="jigou" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aboutus','','images/menu2_04.jpg',1)"><img src="images/menu_04.jpg" alt="关于我们" name="aboutus" width="112" height="28" border="0"></a></div>
+        </div></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="pgs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pgs','','images/menu2_06.jpg',1)"><img src="images/menu_06.jpg" alt="评估案例" name="pgs" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_build.style.display='block'"
+onmouseout="myMenu_build.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_build style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">                <table width="80" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="flfg.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('flfg','','images/menu2_fg.jpg',1)"><img src="images/menu_fg.jpg" alt="法律法规" name="flfg" width="112" height="29" border="0"></a></td>
+                  </tr>
+		 <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="gjcs.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gjcs','','images/menu2_gjcs.jpg',1)"><img src="images/menu_gjcs.jpg" alt="估价常识" name="gjcs" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('build','','images/menu2_08.jpg',1)"><img src="images/menu_08.jpg" alt="信息中心" name="build" width="112" height="28" border="0"></a></div>
+        </div></td>
+		
+		<td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="gcsj_all.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sj','','images/menu2_sj.jpg',1)"><img src="images/menu_sj.jpg" alt="国城视界" name="sj" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="job.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/menu2_job.jpg',1)"><img src="images/menu_job.jpg" alt="招贤纳才" name="job" width="114" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="contactus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contactus','','images/menu2_10.jpg',1)"><img src="images/menu_10.jpg" alt="联系我们" name="contactus" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="#" onClick="javascript:window.external.addfavorite('http://www.gcgj.com.cn','国城估价')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('favorite','','images/menu2_14.jpg',1)"><img src="images/menu_14.jpg" alt="加入收藏" name="favorite" width="112" height="28" border="0"></a></td>
+        <td>　</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<!--菜单表格 -->
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="background-repeat:no-repeat; background-position:bottom">
+  <tr>
+    <td height="31" colspan="2" background="images/aboutus_03.jpg">　</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
+	<tr>
+		<td colspan="2" valign="top" bgcolor="#FFFFFF" style=" background-attachment:fixed; background-image:url(images/dfmz_bg.jpg); background-position:bottom; background-repeat:no-repeat;"><table width="1000" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="840" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x">
+			
+			<!--这里面是内容 -->
+			
+
+			
+			
+			<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="23"><div align="right" class="STYLE1">首页 -&gt; 国城视界</div></td>
+              </tr>
+              <tr>
+                <td height="15" align="right"><img src="images/line.jpg" width="512" height="5"></td>
+              </tr>
+              <tr>
+			     <td height="6" class="t13"><p>　　</p>
+                  <p align="center" class="STYLE3">房地产估价报告评审标准（试行）</p>
+				  <p align="center">（征求意见稿）</p>
+                  <blockquote>
+			        <p>　　<strong>第一条（制定目的）</strong>  为了提高房地产估价报告质量，统一房地产估价报告评审要求和方法，保障房地产估价报告评审客观、合理，制定本标准。</p>
+			        <p>　　<strong>第二条（适用范围）</strong>  本标准适用于鉴证性房地产估价报告评审。
+			          本标准所称鉴证性房地产估价报告（以下简称估价报告），是指房地产估价机构为委托人提供给第三方使用或者进行内部管理、接受外部监管而出具的起着价值证明作用的房地产估价报告。			          </p>
+			        <p>　　<strong>第三条（评审方式）</strong>  估价报告评审采取定量评审和定性评审相结合的方式进行。			          </p>
+			        <p>　　<strong>第四条（定量评审内容）</strong>  估价报告定量评审，分为一般项目评审和特殊项目评审。			          </p>
+			        <p>　　一般项目是指估价报告基本组成要素和外在质量，分为4大项：（1）封面（或扉页）、致估价委托人函、目录、注册房地产估价师声明、估价假设和限制条件；（2）估价结果报告；（3）估价技术报告；（4）附件及外在质量。具体分为27个评审项目（见附件）。			          </p>
+			        <p>　　特殊项目是指特定估价目的的估价报告应当具有的独特要素或者应当进行分析的独特内容。房地产抵押估价报告的特殊项目包括：估价对象变现能力分析、风险提示，以及对估价假设和限制条件、估价原则、估价结果披露和附件的特殊要求。			          </p>
+			        <p>　　<strong>第五条（定量评审得分） </strong>估价报告定量评审的满分为100分。在赋予每个评审项目标准分的基础上，列举估价报告可能存在的质量缺陷并分别赋予一定的扣分值。			          </p>
+			        <p>　　估价报告存在本标准列举的质量缺陷的，从相应评审项目标准分中减去该质量缺陷对应的扣分值，但该评审项目减去的扣分值之和不应超过其标准分。各个评审项目的评审得分为该评审项目的标准分减去扣分值之和。			          </p>
+			        <p>　　不具有特殊项目的估价报告评审得分，为各个一般项目评审得分之和。具有特殊项目的估价报告评审得分，为一般项目评审得分与特殊项目评审得分累加后按照100分制换算而成。			          </p>
+			        <p>　　<strong>第六条（测算过程评审）</strong>  一般项目评审中，估价测算过程的评审得分按照下列方式确定：			          </p>
+			        <p>　　（一）只能采用一种估价方法估价的，该估价方法的评审得分为估价测算过程的评审得分。			          </p>
+			        <p>　　（二）应当采用两种或者两种以上估价方法估价的，各种估价方法评审得分的简单算术平均数为估价测算过程的评审得分。</p>
+			        <p>　　<strong>第七条（创新特色加分）</strong>  估价报告在严于国家标准和技术规范以及本标准的基础上有创新或者特色内容的，可以在相应评审项目评审得分的基础上给予适当加分，但加分后的评审得分不得超过该评审项目的标准分。			          </p>
+			        <p>　　<strong>第八条（定性评审内容）</strong>  估价报告定性评审，采取审查估价报告中是否有本标准规定的不合格内容的方式进行。
+			          估价报告不合格内容包括重要内容缺失、原则性错误和严重质量缺陷。
+			          对有不合格内容的估价报告，仍然应当进行全面的定量评审。			          </p>
+			        <p>　　<strong>第九条（重要内容缺失）</strong>  估价报告中缺少下列必要组成部分之一的，为重要内容缺失：			          </p>
+			        <p>　　（一）致估价委托人函；			          </p>
+			        <p>　　（二）注册房地产估价师声明；			          </p>
+			        <p>　　（三）估价假设和限制条件；			          </p>
+			        <p>　　（四）附件。			          </p>
+			        <p>　　估价结果报告中缺少下列内容之一的，为重要内容缺失：			          </p>
+			        <p>　　（一）估价委托人；			          </p>
+			        <p>　　（二）估价机构；			          </p>
+			        <p>　　（三）估价目的；			          </p>
+			        <p>　　（四）估价对象；			          </p>
+			        <p>　　（五）估价时点；			          </p>
+			        <p>　　（六）价值类型；			          </p>
+			        <p>　　（七）估价依据；			          </p>
+			        <p>　　（八）估价原则；			          </p>
+			        <p>　　（九）估价方法；			          </p>
+			        <p>　　（十）估价结果；			          </p>
+			        <p>　　（十一）估价人员；			          </p>
+			        <p>　　（十二）估价作业日期。</p>
+			        <p>　　 估价技术报告中缺少下列内容之一的，为重要内容缺失：			          </p>
+			        <p>　　（一）估价对象实物状况描述与分析；			          </p>
+			        <p>　　（二）估价对象权益状况描述与分析；			          </p>
+			        <p>　　（三）估价对象区位状况描述与分析；			          </p>
+			        <p>　　（四）市场背景描述与分析；			          </p>
+			        <p>　　（五）估价对象最高最佳利用分析；			          </p>
+			        <p>　　（六）估价方法适用性分析；			          </p>
+			        <p>　　（七）估价测算过程；			          </p>
+			        <p>　　（八）估价结果确定。			          </p>
+			        <p>　　特定估价目的的估价报告中缺少应当具有的独特要素或者应当进行分析的独特内容的，为重要内容缺失。</p>
+			        <p>　　<strong>第十条（原则性错误） </strong>估价报告中存在下列情形之一的，为原则性错误：			          </p>
+			        <p>　　（一）估价报告中没有两名以上（含两名）注册房地产估价师亲笔签名的；			          </p>
+			        <p>　　（二）估价报告中没有加盖估价机构公章的；			          </p>
+			        <p>　　（三）估价报告出具日期不在估价机构资质有效期内的；			          </p>
+			        <p>　　（四）估价报告对应的估价业务超出估价机构资质等级许可范围的；			          </p>
+			        <p>　　（五）随意编造估价假设的；			          </p>
+			        <p>　　（六）估价对象不符合估价目的相应的处分要求的；			          </p>
+			        <p>　　（七）估价对象范围或者状况界定存在严重错误的；			          </p>
+			        <p>　　（八）虚构、编造估价对象状况的；			          </p>
+			        <p>　　（九）估价时点与估价目的不适应或者与有关规定不同且未充分说明理由的；			          </p>
+			        <p>　　（十）价值类型选择或者价值定义表述存在严重错误的；			          </p>
+			        <p>　　（十一）虚构、编造可比实例的；			          </p>
+			        <p>　　（十二）虚构、编造重要估价参数的。</p>
+			        <p>　　<strong>第十一条（严重质量缺陷）</strong>  估价报告中存在下列情形之一的，为严重质量缺陷：			          </p>
+			        <p>　　（一）估价依据中未列明估价所依据的必要法律法规和标准，或者在估价报告分析中没有体现其要求，或者运用存在严重错误的；			          </p>
+			        <p>　　（二）理论上适用的估价方法未采用且未充分说明理由的；			          </p>
+			        <p>　　（三）估价方法选用出现错误的；			          </p>
+			        <p>　　（四）估价结果报告、估价技术报告中估价方法选用不一致的；			          </p>
+			        <p>　　（五）估价技术路线确定出现严重错误的；			          </p>
+			        <p>　　（六）估价基本数据、参数选取出现严重错误或者明显偏离客观实际的；			          </p>
+			        <p>　　（七）估价方法运用出现严重错误，包括测算过程、计算公式选用、计算结果出现严重错误的；			          </p>
+			        <p>　　（八）估价报告中的内容前后严重矛盾的；			          </p>
+			        <p>　　（九）致估价委托人函、估价结果报告、估价技术报告中的估价结果不一致的；			          </p>
+			        <p>　　（十）对估价结果有重大影响的不确定因素，未在估价假设和限制条件中说明或者披露，也未就该不确定因素对估价结果可能产生影响进行说明的，或者虽然在估价假设和限制条件中说明或披露，但未就该不确定因素对估价结果可能产生影响进行说明的。			          </p>
+			        <p>　　<strong>第十二条（评审结论）</strong>  估价报告评审结论由评审得分和评审意见组成。			          </p>
+			        <p>　　估价报告评审得分不足60分或者有本标准规定的不合格内容之一的，为评审不合格。			          </p>
+			        <p>　　评审意见应当说明估价报告是否合格，并列出估价报告存在的主要质量缺陷。			          </p>
+			        <p>　　<strong>第十三条（解释）</strong>  本标准由中国房地产估价师与房地产经纪人学会负责解释。			          </p>
+			        <p>　　<strong>第十四条（施行时间）</strong>  本标准自2010年1月1日起施行。</p>
+                  </blockquote>			    </td>
+              </tr>
+            </table>
+			
+			
+			
+		<!--这里面是内容 -->			</td>
+            <td width="160" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x"><img src="images/jzsc.gif" width="113" height="366"></td>
+          </tr>
+          <tr>
+            <td height="87" colspan="2" valign="bottom" style="background-repeat:repeat-x"><table width="100%" height="53" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="53" align="center"><table width="529" height="41" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="190" height="41" align="right">版权所有 &copy; 2008-2016</td>
+                    <td width="28"><img src="images/gclogo.gif" width="28" height="28"></td>
+                    <td width="250"> 上海国城土地房地产估价有限公司 </td>
+                    <td width="126"><img src="images/guocheng_badge.gif" width="34" height="41"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+      </table></td>
+    </tr>
+</table>
+<table width="1000" height="32" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#ED1B24"><div align="center" class="STYLE2">    地址:上海市黄浦路99号(上海滩国际大厦)2210室 邮编:200080 电话:021-63830052 客服电话:021-56660607 传真:021-63830085<br>网址:http://www.gcgj.com.cn<br>友情链接：<a href="http://www.egutong.com.cn" target="_blank"><font color="#FFFFFF">e估通</font></a>
+  	<p><a href="http://www.miibeian.gov.cn" target="_blank">	<font color="#FFFFFF">ICP</font><font color="#FFFFFF">证: 沪ICP备10026994号</font></a></div></td>
+  </tr>
+</table>
+</body>
+</html>

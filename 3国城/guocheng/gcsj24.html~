@@ -1,0 +1,246 @@
+<html>
+<head>
+<title>国城估价 - 国城视界</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FF6600;
+}
+body,td,th {
+	font-size: 14px;
+}
+.STYLE1 {
+	color: #CC0000;
+	text-decoration: none;
+}
+-->
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE2 {	color: #FFFFFF;
+	font-size: 14px;
+}
+.STYLE3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body onLoad="'images/menu2_02.jpg','images/menu2_04.jpg','images/menu2_06.jpg','images/menu2_08.jpg','images/menu2_10.jpg','images/menu2_12.jpg','images/menu2_14.jpg';MM_preloadImages('images/menu2_company.jpg','images/menu2_zz.jpg','images/menu2_fu.jpg','images/menu2_lc.jpg','images/menu2_gjcs.jpg','images/menu2_fg.jpg','images/menu2_job.jpg')">
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/aboutus_01.jpg" width="1000" height="114"></td>
+  </tr>
+</table>
+
+<!--菜单表格 -->
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="28" align="center" bgcolor="#ED1B24"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/menu2_02.jpg',1)"><img src="images/menu_02.jpg" alt="首页" name="home" width="84" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_wh.style.display='block'"
+onmouseout="myMenu_wh.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_wh style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">
+                <table width="80" height="77" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('company','','images/menu2_company.jpg',1)"><img src="images/menu_company.jpg" alt="公司简介" name="company" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="cert.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cert','','images/menu2_zz.jpg',1)"><img src="images/menu_zz.jpg" alt="公司资质" name="cert" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>				  <tr>
+                    <td><a href="lilian.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lilian','','images/menu2_lilian.jpg',1)"><img src="images/menu_lilian.jpg" alt="经营理念" name="lilian" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="fuwu.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fuwu','','images/menu2_fu.jpg',1)"><img src="images/menu_fu.jpg" alt="服务范围" name="fuwu" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="liucheng.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('liucheng','','images/menu2_lc.jpg',1)"><img src="images/menu_lc.jpg" alt="服务流程" name="liucheng" width="112" height="29" border="0"></a></td>
+                  </tr>
+           <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="jigou.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jigou','','images/menu2_jg.jpg',1)"><img src="images/menu_jg.jpg" alt="合作机构" name="jigou" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aboutus','','images/menu2_04.jpg',1)"><img src="images/menu_04.jpg" alt="关于我们" name="aboutus" width="112" height="28" border="0"></a></div>
+        </div></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="pgs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pgs','','images/menu2_06.jpg',1)"><img src="images/menu_06.jpg" alt="评估案例" name="pgs" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_build.style.display='block'"
+onmouseout="myMenu_build.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_build style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">                <table width="80" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="flfg.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('flfg','','images/menu2_fg.jpg',1)"><img src="images/menu_fg.jpg" alt="法律法规" name="flfg" width="112" height="29" border="0"></a></td>
+                  </tr>
+		 <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="gjcs.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gjcs','','images/menu2_gjcs.jpg',1)"><img src="images/menu_gjcs.jpg" alt="估价常识" name="gjcs" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('build','','images/menu2_08.jpg',1)"><img src="images/menu_08.jpg" alt="信息中心" name="build" width="112" height="28" border="0"></a></div>
+        </div></td>
+		
+		<td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="gcsj_all.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sj','','images/menu2_sj.jpg',1)"><img src="images/menu_sj.jpg" alt="国城视界" name="sj" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="job.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/menu2_job.jpg',1)"><img src="images/menu_job.jpg" alt="招贤纳才" name="job" width="114" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="contactus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contactus','','images/menu2_10.jpg',1)"><img src="images/menu_10.jpg" alt="联系我们" name="contactus" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="#" onClick="javascript:window.external.addfavorite('http://www.gcgj.com.cn','国城估价')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('favorite','','images/menu2_14.jpg',1)"><img src="images/menu_14.jpg" alt="加入收藏" name="favorite" width="112" height="28" border="0"></a></td>
+        <td>　</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<!--菜单表格 -->
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="background-repeat:no-repeat; background-position:bottom">
+  <tr>
+    <td height="31" colspan="2" background="images/aboutus_03.jpg">　</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
+	<tr>
+		<td colspan="2" valign="top" bgcolor="#FFFFFF" style=" background-attachment:fixed; background-image:url(images/dfmz_bg.jpg); background-position:bottom; background-repeat:no-repeat;"><table width="1000" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="840" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x">
+			
+			<!--这里面是内容 -->
+			
+
+			
+			
+			<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="23"><div align="right" class="STYLE1">首页 -&gt; 国城视界</div></td>
+              </tr>
+              <tr>
+                <td height="15" align="right"><img src="images/line.jpg" width="512" height="5"></td>
+              </tr>
+              <tr>
+			     <td height="6" class="t13"><p>　　</p>
+                  <p align="center" class="STYLE3">国土部发出定义：中小套型即90平米以下户型</p>
+                  <blockquote>
+			        <p>　　3月10日国土部发布的《关于加强房地产用地供应和监管有关问题的通知》（以下简称《通知》）中强调，确保保障性住房、棚户改造和自住性中小套型商品房建房用地，确保上述用地不低于住房建设用地供应总量的70%。</p>
+				      <p> 　　昨日（11日）召开的“关于加强房地产用地供应与监管新闻通气会”上，国土部的相关负责人表示，国土部最新文件中提到的“中小套型”普通商品房，即指90㎡以下的户型。</p>
+				      <p> 　　“中小套型”的提法见于今年1月10日的“国11条”。其中提到，各地要抓紧编制2010~2012年住房建设规划，重点明确中低价位、中小套型普通商品住房和限价商品住房、公共租赁住房、经济适用住房、廉租住房的建设规模。</p>
+				      <p>　　2006年5月出台的“国6条”中规定为“90/70”政策，即“套型建筑面积90平方米以下住房（含经济适用住房）面积所占比重，必须达到开发建设总面积的70%以上”。</p>
+				      <p>　　上述国土部负责人表示，2009年一些地方为应对金融危机，出台救市政策，在保障性住房用地增加的同时，放松了“90/70”等政策要求，中低价位、中小套型普通商品住房建设用地比例反而减少。
+				      国土部数据显示，去年前三季度，我国普通商品房用地供应33182.99公顷，同比增加4.3%。其中，中低价位、中小套型普通商品房用地供应6002.94公顷，同比减少45.0%，占住宅用地供应量的14.9%，同比下降14.6个百分点。 </p>
+				      <p>　　今年1月13日，在六部委解读“国11条”的新闻发布会上，国土部副部长贠小苏向记者透露，松动多年的“90/70”政策符合“国11条”的调控思路，应强化执行。此外，上述国土部负责人还表示，加大中低价位、中小套型普通商品住房供应，是改善当前供求关系的当务之急。</p>
+					   <p>　　国土部数据显示，去年我国房地产供地超过10万公顷，同比增加36.7%。其中，廉租房用地和经济适用房用地合计供地10958公顷，占比仅为10%左右。</p>
+					    <p>　　负责人还称，由于统计口径不同，与《通知》规定的“保障性住房、棚户改造和自住性中小套型商品房建房用地不低于住房建设用地供应总量的70%”相比，上述10%的比例不能简单对比，但可以确定的是，目前市场的供应结构急需调整。</p>
+						 <p>　　住建部副部长齐骥：当前，我国住房建设还比较粗放，部分消费者存在超前、过度消费。这与我国人多地少的基本国情、资源环境和承载能力都不相适应。</p>
+						  <p>　　今年，住建部将加大对中小套型普通商品住房的供应，并通过税收、金融等手段约束不合理的住宅消费。前日，在全国政协第十一届三次会议首场提案办理协商会上，住建部副部长齐骥直言，我国住房消费中存在部分超前、过度现象。</p>
+						   <p>　　大户型供应比例偏高。</p>
+						    <p>　　“目前我国大户型、高档住房供应的比例偏高了。”齐骥说，当前，我国住房建设还比较粗放，商品住房市场还不成熟，部分消费者存在超前、过度消费。这与我国人多地少的基本国情、资源环境和承载能力都不相适应。</p>
+							 <p>　　因此，住建部将引导社会建立合理的住宅建设和消费模式。齐骥表示，施工方式今后将由粗放、现场生产向工厂化、模式化和装配式改变，提高住房质量和舒适度，并推广商品住房一次装修，以减少二次装修的浪费。同时，住建部将完善对低收入家庭的住房保障体系，健全对中低收入家庭和新就业人员的住房支持政策。</p>
+							  <p>　　齐骥说，今后将增加中小套型普通商品住房，特别是节能省地型的住房供应，并通过税收、金融手段约束不合理的住宅消费。</p>
+							  <p>　　建筑能耗占总能耗三成。</p>
+							  <p>　　据统计，当前我国建筑能耗占社会总能耗近三成，城市的污水和垃圾处理能力也不能满足生态良好的需求。</p>
+							  <p>　　为改变这一现状，今后，住建部将重点抓好新建建筑节能的验收管理、民用建筑节能的信息公示、绿色建筑和能效测评标志制度的落实。</p>
+							  <p>　　北方新建筑须按户热计量</p>
+							  <p>　　齐骥说，2009年，全国新建建筑节能标准实施率超过90%，比上年度提高8%。今年，对既有居住建筑的节能工作，重点是推动北方既有居住建筑供热计量及节能改造，并推进供热计量改革。</p>
+							  <p>　　而今年起，北方城市新竣工集中供热建筑都应实行按户用热计量收费，未按户安装热计量装置的建筑，不得竣工验收和投入使用。</p>
+							  
+				      <p align="right">　　　　    （来源：《每日经济新闻》） </p>
+                  </blockquote>			    </td>
+              </tr>
+            </table>
+			
+			
+			
+		<!--这里面是内容 -->			</td>
+            <td width="160" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x"><img src="images/jzsc.gif" width="113" height="366"></td>
+          </tr>
+          <tr>
+            <td height="87" colspan="2" valign="bottom" style="background-repeat:repeat-x"><table width="100%" height="53" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="53" align="center"><table width="529" height="41" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="190" height="41" align="right">版权所有 &copy; 2008-2016</td>
+                    <td width="28"><img src="images/gclogo.gif" width="28" height="28"></td>
+                    <td width="250"> 上海国城土地房地产估价有限公司 </td>
+                    <td width="126"><img src="images/guocheng_badge.gif" width="34" height="41"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+      </table></td>
+    </tr>
+</table>
+<table width="1000" height="32" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#ED1B24"><div align="center" class="STYLE2">    地址:上海市黄浦路99号(上海滩国际大厦)2210室 邮编:200080 电话:021-63830052 客服电话:021-31336677 传真:021-63830085<br>网址:http://www.gcgj.com.cn<br>友情链接：<a href="http://www.egutong.com.cn" target="_blank"><font color="#FFFFFF">e估通</font></a>
+  	<p><a href="http://www.miibeian.gov.cn" target="_blank">	<font color="#FFFFFF">ICP</font><font color="#FFFFFF">证: 沪ICP备10026994号</font></a></div></td>
+  </tr>
+</table>
+</body>
+</html>

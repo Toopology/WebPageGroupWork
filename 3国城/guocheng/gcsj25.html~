@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>国城估价 - 国城视界</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FF6600;
+}
+body,td,th {
+	font-size: 14px;
+}
+.STYLE1 {
+	color: #CC0000;
+	text-decoration: none;
+}
+-->
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE2 {	color: #FFFFFF;
+	font-size: 14px;
+}
+.STYLE3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body onLoad="'images/menu2_02.jpg','images/menu2_04.jpg','images/menu2_06.jpg','images/menu2_08.jpg','images/menu2_10.jpg','images/menu2_12.jpg','images/menu2_14.jpg';MM_preloadImages('images/menu2_company.jpg','images/menu2_zz.jpg','images/menu2_fu.jpg','images/menu2_lc.jpg','images/menu2_gjcs.jpg','images/menu2_fg.jpg','images/menu2_job.jpg')">
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/aboutus_01.jpg" width="1000" height="114"></td>
+  </tr>
+</table>
+
+<!--菜单表格 -->
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="28" align="center" bgcolor="#ED1B24"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/menu2_02.jpg',1)"><img src="images/menu_02.jpg" alt="首页" name="home" width="84" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_wh.style.display='block'"
+onmouseout="myMenu_wh.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_wh style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">
+                <table width="80" height="77" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('company','','images/menu2_company.jpg',1)"><img src="images/menu_company.jpg" alt="公司简介" name="company" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="cert.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cert','','images/menu2_zz.jpg',1)"><img src="images/menu_zz.jpg" alt="公司资质" name="cert" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>				  <tr>
+                    <td><a href="lilian.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lilian','','images/menu2_lilian.jpg',1)"><img src="images/menu_lilian.jpg" alt="经营理念" name="lilian" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="fuwu.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fuwu','','images/menu2_fu.jpg',1)"><img src="images/menu_fu.jpg" alt="服务范围" name="fuwu" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="liucheng.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('liucheng','','images/menu2_lc.jpg',1)"><img src="images/menu_lc.jpg" alt="服务流程" name="liucheng" width="112" height="29" border="0"></a></td>
+                  </tr>
+           <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="jigou.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jigou','','images/menu2_jg.jpg',1)"><img src="images/menu_jg.jpg" alt="合作机构" name="jigou" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aboutus','','images/menu2_04.jpg',1)"><img src="images/menu_04.jpg" alt="关于我们" name="aboutus" width="112" height="28" border="0"></a></div>
+        </div></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="pgs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pgs','','images/menu2_06.jpg',1)"><img src="images/menu_06.jpg" alt="评估案例" name="pgs" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_build.style.display='block'"
+onmouseout="myMenu_build.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_build style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">                <table width="80" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="flfg.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('flfg','','images/menu2_fg.jpg',1)"><img src="images/menu_fg.jpg" alt="法律法规" name="flfg" width="112" height="29" border="0"></a></td>
+                  </tr>
+		 <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="gjcs.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gjcs','','images/menu2_gjcs.jpg',1)"><img src="images/menu_gjcs.jpg" alt="估价常识" name="gjcs" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('build','','images/menu2_08.jpg',1)"><img src="images/menu_08.jpg" alt="信息中心" name="build" width="112" height="28" border="0"></a></div>
+        </div></td>
+		
+		<td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="gcsj_all.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sj','','images/menu2_sj.jpg',1)"><img src="images/menu_sj.jpg" alt="国城视界" name="sj" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="job.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/menu2_job.jpg',1)"><img src="images/menu_job.jpg" alt="招贤纳才" name="job" width="114" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="contactus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contactus','','images/menu2_10.jpg',1)"><img src="images/menu_10.jpg" alt="联系我们" name="contactus" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="#" onClick="javascript:window.external.addfavorite('http://www.gcgj.com.cn','国城估价')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('favorite','','images/menu2_14.jpg',1)"><img src="images/menu_14.jpg" alt="加入收藏" name="favorite" width="112" height="28" border="0"></a></td>
+        <td>　</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<!--菜单表格 -->
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="background-repeat:no-repeat; background-position:bottom">
+  <tr>
+    <td height="31" colspan="2" background="images/aboutus_03.jpg">　</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
+	<tr>
+		<td colspan="2" valign="top" bgcolor="#FFFFFF" style=" background-attachment:fixed; background-image:url(images/dfmz_bg.jpg); background-position:bottom; background-repeat:no-repeat;"><table width="1000" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="840" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x">
+			
+			<!--这里面是内容 -->
+			
+
+			
+			
+			<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="23"><div align="right" class="STYLE1">首页 -&gt; 国城视界</div></td>
+              </tr>
+              <tr>
+                <td height="15" align="right"><img src="images/line.jpg" width="512" height="5"></td>
+              </tr>
+              <tr>
+			     <td height="6" class="t13"><p>　　</p>
+                  <p align="center" class="STYLE3"><strong>国有土地上房屋征收与补偿条例(征求意见稿)</strong></p>
+				  <p align="center">第一章总则</p>
+                  <blockquote>
+			        <p>　　第一条为了规范国有土地上房屋征收与补偿活动，维护公共利益，保障被征收人的合法权益，根据《物权法》和《全国人民代表大会常务委员会关于修改〈中华人民共和国城市房地产管理法〉的决定》，制定本条例。</p>
+			        <p>　　第二条 为了公共利益的需要，对国有土地上单位、个人的房屋实行征收以及对被征收房屋的所有权人(以下简称被征收人)给予补偿的，适用本条例。			          </p>
+			        <p>　　第三条 本条例所称公共利益的需要，包括：			          </p>
+			        <p>　　(一)国防设施建设的需要；			          </p>
+			        <p>　　(二)国家重点扶持并纳入规划的能源、交通、水利等公共事业的需要；			          </p>
+			        <p>　　(三)国家重点扶持并纳入规划的科技、教育、文化、卫生、体育、环境和资源保护、文物保护、社会福利、市政公用等公共事业的需要；         </p>
+			        <p>　　(四)为改善低收入住房困难家庭居住条件，由政府组织实施的廉租住房、经济适用住房等建设的需要；			          </p>
+			        <p>　　(五)为改善城市居民居住条件，由政府组织实施的危旧房改造的需要；</p>
+			        <p>　　(六)国家机关办公用房建设的需要；			          </p>
+			        <p>　　(七)法律、行政法规和国务院规定的其他公共利益的需要。	          </p>
+			        <p>　　第四条 房屋征收与补偿应当遵循决策民主、程序正当、补偿公平、结果公开的原则。	          </p>
+			        <p>　　第五条 县级以上地方人民政府负责本行政区域的房屋征收与补偿工作。</p>
+			        <p>　　县级以上地方人民政府规定的房屋征收部门具体组织实施房屋征收与补偿工作。</p>
+			        <p>　　县级以上地方人民政府有关部门应当依照本条例的规定和本级人民政府规定的职责分工，互相配合，保证房屋征收与补偿工作的顺利进行。 </p>
+			        <p>　　第六条 上级人民政府应当加强对下级人民政府房屋征收与补偿工作的监督。 </p>
+			        <p>　　国务院建设主管部门和省、自治区、直辖市人民政府建设主管部门应当会同同级财政、国土资源等有关部门，加强对房屋征收与补偿实施工作的指导。 </p>
+			        <p>　　第七条 任何组织或者个人对违反本条例规定的行为，有权向有关人民政府、房屋征收部门和其他有关部门举报。接到举报的有关人民政府、房屋征收部门和其他有关部门对举报应当及时核实、处理，并将处理结果向举报人通报。		          </p>
+			        <p align="center">　　第二章征收程序		          </p>
+			        <p>　　第八条为了公共利益的需要，县级以上地方人民政府征收房屋的，应当依照本条例的规定作出房屋征收决定。		          </p>
+			        <p>　　第九条 县级以上地方人民政府在作出房屋征收决定前，应当组织发展改革、城乡规划、国土资源、环境保护、文物保护、建设等有关部门，就房屋征收目的、房屋征收范围、实施时间等事项进行论证。   </p>
+			        <p>　　第十条 县级以上地方人民政府在组织有关部门论证后，应当将房屋征收目的、房屋征收范围、实施时间等事项予以公告，并采取论证会、听证会或者其他方式征求被征收人、公众和专家意见。公告时间不得少于30日；但是，房屋征收范围较大的，公告时间不得少于60日。 </p>
+			        <p>　　公告的事项涉及国家秘密的，应当遵守有关保密法律、行政法规的规定。			          </p>
+			        <p>　　县级以上地方人民政府应当将被征收人、公众和专家意见的采纳情况、不采纳情况及理由及时公布。 </p>
+			        <p>　　第十一条 房屋征收范围公告后，在房屋征收范围内不得进行下列活动：			          </p>
+			        <p>　　(一)新建、扩建、改建房屋；  </p>
+			        <p>　　(二)改变房屋和土地用途；</p>
+			        <p>　　(三)迁入户口或者分户。 </p>
+			        <p>　　房屋征收部门应当将前款所列事项书面通知有关部门暂停办理相关手续。暂停办理相关手续的书面通知应当载明暂停期限。暂停期限最长不得超过1年。 </p>
+			        <p>　　第十二条 经征求被征收人、公众和专家意见，无重大争议的，由县级以上地方人民政府作出房屋征收决定；存在重大争议的，由县级以上地方人民政府报请上一级人民政府裁决后，作出房屋征收决定。 </p>
+			        <p>　　征收房屋的，应当依法收回国有土地使用权。 </p>
+			        <p>　　第十三条 因危旧房改造的需要征收房屋的，县级以上地方人民政府应当在组织有关部门论证的基础上，征求被征收人的意见。90%以上被征收人同意进行危旧房改造的，县级以上地方人民政府方可作出房屋征收决定；未达到90%被征收人同意的，不得作出房屋征收决定。</p>
+			        <p>　　县级以上地方人民政府应当将征求意见的情况及时公布。</p>
+			        <p>　　第十四条 县级以上地方人民政府应当将房屋征收决定予以公告。公告应当载明房屋征收目的、房屋征收范围、实施时间和行政复议、行政诉讼权利等事项。	      </p>
+			        <p>　　县级以上地方人民政府及其房屋征收部门应当及时做好对房屋征收决定的宣传、解释工作。    </p>
+			        <p>　　第十五条 被征收人以及与房屋征收决定有关的利害关系人对县级以上地方人民政府作出的房屋征收决定不服的，可以依法申请行政复议，也可以依法向人民法院提起行政诉讼。 </p>
+			        <p>　　第十六条 房屋征收涉及国防设施、文物古迹、历史建筑、宗教活动场所的，应当遵守有关法律、法规的规定。 </p>
+			        <p>　　征收设有抵押权的房屋，应当依法保护抵押权人的合法权益。 </p>
+			        <p>　　第十七条房屋征收部门应当建立健全房屋征收档案管理制度，加强对房屋征收档案资料的管理。   </p>
+			        <p align="center">　　第三章 补 偿		          </p>
+			        <p>　　第十八条 作出房屋征收决定的县级以上地方人民政府，应当依照本条例的规定对被征收人给予补偿。  </p>
+			        <p>　　第十九条 补偿方式可以实行货币补偿，也可以实行房屋产权调换，或者实行货币补偿与房屋产权调换相结合的形式。   </p>
+			        <p>　　因危旧房改造的需要征收房屋并进行住宅建设的，被征收人享有回迁的权利。</p>
+			        <p>　　除本条例第二十九条规定外，被征收人可以选择补偿方式。 </p>
+			        <p>　　第二十条 货币补偿的金额，根据被征收房屋的区位、用途、建筑结构、新旧程度、建筑面积等因素，以房地产市场评估价格确定。  </p>
+			        <p>　　被征收房屋的房地产市场评估价格由具有相应资质的房地产价格评估机构，按照房地产估价规范和有关规定确定，但不得低于房屋征收决定生效之日类似房地产的市场交易价格。  </p>
+			        <p>　　房地产价格评估机构，由被征收人以投票、抽签等方式确定。 </p>
+			        <p>　　第二十一条 房地产价格评估机构应当独立、客观、公正地确定被征收房屋的房地产市场评估价格，对出具的估价报告的合法性、真实性和合理性负责。 </p>
+			        <p>　　房屋征收部门应当向房地产价格评估机构提供本条例第二十四条第一款规定的调查结果。   </p>
+			        <p>　　任何单位或者个人不得干预补偿估价工作。  </p>
+			        <p>　　第二十二条 选择房屋产权调换的，应当依照本条例第二十条的规定，计算被征收房屋的价格和产权调换房屋的价格，结清产权调换的差价。 </p>
+			        <p>　　产权调换房屋应当符合国家质量安全标准。 </p>
+			        <p>　　第二十三条对房屋征收范围内的违法建筑和超过批准期限的临时建筑，不予补偿，并依法拆除；对未超过批准期限的临时建筑，应当给予适当补偿。  </p>
+			        <p>　　第二十四条房屋征收部门应当对房屋征收范围内房屋的权属、区位、用途、建筑面积以及租赁和用益物权等情况组织调查登记，被征收人应当予以配合。调查人员和被征收人应当对调查结果予以确认。调查结果应当向全体被征收人公布。  </p>
+			        <p>　　房屋征收部门应当依照本条例的规定，依据调查结果、房地产市场评估价格，拟定补偿方案，并征求被征收人的意见。</p>
+			        <p>　　房屋征收部门根据被征收人的意见，对补偿方案予以修改完善，报作出房屋征收决定的县级以上地方人民政府批准后予以公告。公告应当载明补偿方式和房源情况以及签约期限、搬迁过渡方式、过渡期限等事项。</p>
+			        <p>　　因危旧房改造的需要征收房屋的，补偿方案在报县级以上地方人民政府批准前，还应当征得三分之二以上被征收人的同意。 </p>
+			        <p>　　第二十五条房屋征收部门应当按照经批准的补偿方案，与被征收人就补偿方式、补偿金额、产权调换房屋的地点和面积、搬迁期限、搬迁过渡方式和过渡期限等事项，订立补偿协议；其中，危旧房改造的补偿协议，在签约期限内签约率达到三分之二以上的，方可生效。          </p>
+			        <p>　　房屋征收部门应当将补偿协议向全体被征收人公布。  </p>
+			        <p>　　补偿协议订立后，一方当事人未履行补偿协议的，另一方当事人可以依法向人民法院提起诉讼。 </p>
+			        <p>　　第二十六条征收个人住宅的，作出房屋征收决定的县级以上地方人民政府，应当为选择货币补偿方式的被征收人提供适当房源。  </p>
+					<p>　　第二十七条 征收个人住宅的，被征收人的家庭符合廉租住房保障对象或者经济适用住房供应对象条件的，作出房屋征收决定的县级以上地方人民政府应当为其提供廉租住房保障或者经济适用住房。具体办法由省、自治区、直辖市人民政府制定。 </p>
+			        <p>　　第二十八条房屋征收部门与被征收人在补偿方案规定的签约期限内达不成补偿协议的，或者被征收房屋所有权人不明确的，由房屋征收部门报请作出房屋征收决定的县级以上地方人民政府根据补偿方案作出补偿决定。  </p>
+			        
+			        <p>　　被征收人以及与房屋征收决定有关的利害关系人对补偿决定不服的，可以依法申请行政复议，也可以依法向人民法院提起行政诉讼；在行政复议、行政诉讼期间，不停止补偿决定的执行；逾期不申请行政复议也不向人民法院提起行政诉讼、又不履行的，由作出房屋征收决定的县级以上地方人民政府强制搬迁，或者依法申请人民法院强制搬迁。补偿决定被复议机关或者人民法院确认为违法的，作出房屋补偿决定的县级以上地方人民政府应当赔偿被征收人的损失，并承担其他相应的法律责任。 </p>
+			        <p>　　实施强制搬迁前，房屋征收部门应当按照补偿决定，对被征收人先予货币补偿或者提供产权调换房屋、周转用房。 </p>
+			        <p>　　第二十九条 征收租赁房屋，被征收人与房屋承租人解除租赁关系的，对被征收人给予补偿；租赁关系未解除的，对被征收人实行房屋产权调换。产权调换的房屋由原房屋承租人承租。   </p>
+			        <p>　　第三十条房屋征收部门应当对被征收人或者房屋承租人支付搬迁补助费。			          </p>
+			        <p>　　选择房屋产权调换补偿方式的被征收人在过渡期限内自行安排住处的，房屋征收部门应当支付临时安置补助费；使用房屋征收部门提供的周转用房的，房屋征收部门不予支付临时安置补助费。   </p>
+			        <p>　　因房屋征收部门未按照补偿协议提供产权调换房屋而延长过渡期限的，对自行安排住处的被征收人，房屋征收部门应当自逾期之月起增加临时安置补助费；对周转用房的使用人，应当自逾期之月起支付临时安置补助费。     </p>
+			        <p>　　搬迁补助费和临时安置补助费的标准，由县级以上地方人民政府规定。  </p>
+			        <p>　　第三十一条对因征收非住宅房屋造成停产、停业的，应当给予适当补偿。   </p>
+			        <p>　　第三十二条 房屋征收部门委托有关单位从事征收补偿与搬迁具体工作的，应当加强对受委托单位的监督，并对其实施的征收补偿与搬迁行为承担相应的法律责任。</p>
+					<p>　　房屋征收部门及其委托的单位不得采取中断供水、供热、供气、供电等方式实施搬迁。</p>
+			        <p>　　任何单位和个人不得以暴力、胁迫以及其他非法手段实施搬迁。 </p>
+			        <p>　　第三十三条 任何单位和个人不得贪污、挪用、私分、截留、拖欠、克扣、挤占补偿等费用。 </p>
+			        <p align="center">　　第四章 法律责任  </p>
+			        <p>　　第三十四条违反本条例规定，县级以上地方人民政府有下列行为之一的，由上级人民政府责令改正，通报批评；造成损失的，依法承担赔偿责任；对直接负责的主管人员和其他直接责任人员，依法给予处分：  </p>
+			        <p>　　(一)非因公共利益需要征收房屋的； </p>
+			        <p>　　(二)违反法定程序作出房屋征收决定的；</p>
+			        <p>　　(三)未将房屋征收决定予以公告或者公告时间不符合法定要求的； </p>
+			        <p>　　(四)对不符合规定的补偿方案予以批准的； </p>
+			        <p>　　(五)作出的补偿决定违反补偿方案的；  </p>
+			        <p>　　(六)违反法定条件强制搬迁的。</p>
+			        <p>　　第三十五条违反本条例规定，房屋征收部门有下列行为之一的，由本级人民政府责令改正，通报批评；造成损失的，依法承担赔偿责任；对直接负责的主管人员和其他直接责任人员，构成犯罪的，依法追究刑事责任；尚不构成犯罪的，依法给予处分： </p>
+			        <p>　　(一)未按照房屋征收决定确定的房屋征收范围实施征收的； </p>
+			        <p>　　(二)实施强制搬迁前，未按照规定对被征收人先予货币补偿或者提供产权调换房屋、周转用房的；  </p>
+			        <p>　　(三)采取中断供水、供热、供气、供电等方式实施搬迁的；</p>
+			        <p>　　(四)未作出补偿决定实施强制搬迁的，或者虽作出补偿决定但未按照法定程序实施强制搬迁的； </p>
+			        <p>　　(五)未支付搬迁补助费、临时安置补助费的。 </p>
+			        <p>　　第三十六条 违反本条例规定，房屋征收部门及其委托实施征收补偿与搬迁的单位，以暴力、胁迫以及其他非法手段实施搬迁的，对直接负责的主管人员和其他直接责任人员，构成犯罪的，依法追究刑事责任；尚不构成犯罪的，依法给予处分。 </p>
+			        <p>　　第三十七条 违反本条例规定，贪污、挪用、私分、截留、拖欠、克扣、挤占补偿等费用的，责令退赔，对有关责任单位通报批评、给予警告；对直接负责的主管人员和其他直接责任人员，构成犯罪的，依法追究刑事责任；尚不构成犯罪的，依法给予处分。</p>
+			        <p>　　第三十八条违反本条例规定，房屋征收部门有下列行为之一的，由本级人民政府责令限期改正；对直接负责的主管人员和其他直接责任人员，依法给予处分：</p>
+			        <p>　　(一)房屋征收范围公告后，未将有关事项书面通知有关部门暂停办理相关手续的；</p>
+			        <p>　　(二)未向房地产价格评估机构提供被征收房屋情况调查结果的；       </p>
+			        <p>　　(三)未依据调查结果拟定补偿方案并征求被征收人意见的。</p>
+			        <p>　　第三十九条 违反本条例规定，房地产价格评估机构或者房地产估价师出具虚假或者有重大差错的估价报告的，由发证机关责令限期改正，给予警告；情节严重的，吊销资质证书、注册证书；构成犯罪的，依法追究刑事责任。 </p>
+					<p align="center">　　第五章 附则  </p>
+			        <p>　　第四十条 非因公共利益的需要，拆迁国有土地上单位、个人的房屋从事建设活动的，应当符合城乡规划、土地利用总体规划，并依法办理有关审批手续。 </p>
+					<p>　　非因公共利益的需要，拆迁国有土地上单位、个人的房屋的，建设单位应当编制具体实施方案，并报房屋征收部门批准。 </p>
+			        <p>　　建设单位应当与房屋的所有权人按照自愿、公平的原则订立拆迁补偿协议。 </p>
+			        <p>　　本条例关于货币补偿、房屋产权调换、补偿协议内容的规定，适用于非因公共利益的需要进行拆迁的活动。</p>
+			        <p>　　建设单位、受委托实施拆迁的单位不得采取中断供水、供热、供气、供电等方式或者以暴力、胁迫以及其他非法手段实施拆迁。</p>
+			        <p>　　县级以上地方人民政府应当加强对拆迁活动的监督管理。 </p>
+			        <p>　　第四十一条本条例自 年 月 日起施行。2001年6月13日国务院公布的《城市房屋拆迁管理条例》同时废止。</p>
+			        
+                  </blockquote>			    </td>
+              </tr>
+            </table>
+			
+			
+			
+		<!--这里面是内容 -->			</td>
+            <td width="160" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x"><img src="images/jzsc.gif" width="113" height="366"></td>
+          </tr>
+          <tr>
+            <td height="87" colspan="2" valign="bottom" style="background-repeat:repeat-x"><table width="100%" height="53" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="53" align="center"><table width="529" height="41" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="190" height="41" align="right">版权所有 &copy; 2008-2016</td>
+                    <td width="28"><img src="images/gclogo.gif" width="28" height="28"></td>
+                    <td width="250"> 上海国城土地房地产估价有限公司 </td>
+                    <td width="126"><img src="images/guocheng_badge.gif" width="34" height="41"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+      </table></td>
+    </tr>
+</table>
+<table width="1000" height="32" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#ED1B24"><div align="center" class="STYLE2">    地址:上海市黄浦路99号(上海滩国际大厦)2210室 邮编:200080 电话:021-63830052 客服电话:021-31336677 传真:021-63830085<br>网址:http://www.gcgj.com.cn<br>友情链接：<a href="http://www.egutong.com.cn" target="_blank"><font color="#FFFFFF">e估通</font></a>
+  	<p><a href="http://www.miibeian.gov.cn" target="_blank">	<font color="#FFFFFF">ICP</font><font color="#FFFFFF">证: 沪ICP备10026994号</font></a></div></td>
+  </tr>
+</table>
+</body>
+</html>

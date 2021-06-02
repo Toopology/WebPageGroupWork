@@ -1,0 +1,120 @@
+<div class="navs">
+
+    <div class="container">
+        <div class="menu-container">
+            <a href="{#$SYS.site_dir#}"><img src="{#$SYS.site_dir#}images/banner_03.png" class="logo" style=" float: left; position: absolute;z-index: 1000;"></a>
+            <div class="menu">
+                <ul>
+                	
+                    {#nav set="调用名称:SYS_top,列表名:list"#}
+                    {#foreach from=$list item=list#}
+                    
+                    {#if $list.tag=='products'#}
+                    <li {#if $list.tag==$page_select && $list.tag!=""#}class="select"{#/if#}><a href="{#$list.url#}" >{#$list.title#}</a>
+                        
+                        <ul>
+                            {#products_category set="列表名:category,产品大类:0"#}
+                            {#foreach from=$category item=list#}
+                            <li>
+                                <a  href="{#"productslist,$list.id"|url#}">{#$list.categoryname#}
+                                </a>
+                            </li>
+                            {#/foreach#}
+                        </ul>
+                        
+                    </li>
+                    {#elseif $list.tag=='solution'#}
+                    <li {#if $list.tag==$page_select && $list.tag!=""#}class="select"{#/if#}><a href="{#$list.url#}" >{#$list.title#}</a>
+
+                    <ul>
+                        {#solution_category set="列表名:category,产品大类:0"#}
+                        {#foreach from=$category item=list#}
+                        <li>
+                            <a  href="{#"solutionlist,$list.id"|url#}">{#$list.categoryname#}
+                            </a>
+                        </li>
+                        {#/foreach#}
+                    </ul>
+
+                    </li>
+                    {#elseif $list.tag=='technical'#}
+                    <li {#if $list.tag==$page_select && $list.tag!=""#}class="select"{#/if#}><a href="{#$list.url#}" >{#$list.title#}</a>
+
+                    <ul>
+                        {#technical_category set="列表名:category,产品大类:0"#}
+                        {#foreach from=$category item=list#}
+                        {#if $list.id==1#}
+                        <li>
+                        <a  href="{#"downlist,$list.id"|url#}">{#$list.categoryname#}
+                        </a>
+                        </li>
+                        {#else#}
+                        <li>
+                        <a  href="{#"viewpointlist,$list.id"|url#}">{#$list.categoryname#}
+                        </a>
+                        </li>
+                        {#/if#}
+                        {#/foreach#}
+                    </ul>
+
+                    </li>
+                    {#elseif $list.tag=='about'#}
+                    <li {#if $list.tag==$page_select && $list.tag!=""#}class="select"{#/if#}><a href="{#$list.url#}" >{#$list.title#}</a>
+
+                    <ul>
+                        {#about_category set="列表名:category,产品大类:0"#}
+                        {#foreach from=$category item=list#}
+                        {#if $list.id==1 || $list.id==2#}
+                        <li>
+                        <a  href="{#"about,$list.id"|url#}">{#$list.categoryname#}
+                        </a>
+                        </li>
+                        {#elseif $list.id==3#}
+                        <li>
+                        <a  href="{#"clientlist,$list.id"|url#}">{#$list.categoryname#}
+                        </a>
+                        </li>
+                        {#else#}
+                        <li>
+                        <a  href="{#"newslist,$list.id"|url#}">{#$list.categoryname#}
+                        </a>
+                        </li>
+                        {#/if#}
+                        {#/foreach#}
+                    </ul>
+
+                    </li>
+                    {#elseif $list.tag=='contact'#}
+                    <li {#if $list.tag==$page_select && $list.tag!=""#}class="select"{#/if#}><a href="{#$list.url#}" >{#$list.title#}</a>
+
+                    <ul>
+                        {#contact_category set="列表名:category,产品大类:0"#}
+                        {#foreach from=$category item=list#}
+                        {#if $list.id==1#}
+                        <li>
+                        <a  href="{#"contact,$list.id"|url#}">{#$list.categoryname#}
+                        </a>
+                        </li>
+                        {#else#}
+                        <li>
+                        <a  href="{#"talent,$list.id"|url#}">{#$list.categoryname#}
+                        </a>
+                        </li>
+                        {#/if#}
+                        {#/foreach#}
+                        <li><a href="{#$SYS.site_dir#}contact/message.php">在线留言</a></li>
+                    </ul>
+
+                    </li>
+                    {#elseif $list.tag!='homepage'#}
+                    <li {#if $list.tag==$page_select && $list.tag!=""#}class="select"{#/if#}><a href="{#$list.url#}" >{#$list.title#}</a></li>
+                   {#elseif $list.tag=='homepage' && $page_select!='homepage'#}
+                    <li {#if $list.tag==$page_select && $list.tag!=""#}class="select"{#/if#}><a href="{#$list.url#}" >{#$list.title#}</a></li>
+                    {#/if#}
+                    {#/foreach#}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,283 @@
+<html>
+<head>
+<title>国城估价 - 国城视界</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FF6600;
+}
+body,td,th {
+	font-size: 14px;
+}
+.STYLE1 {
+	color: #CC0000;
+	text-decoration: none;
+}
+-->
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE2 {	color: #FFFFFF;
+	font-size: 14px;
+}
+.STYLE3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body onLoad="'images/menu2_02.jpg','images/menu2_04.jpg','images/menu2_06.jpg','images/menu2_08.jpg','images/menu2_10.jpg','images/menu2_12.jpg','images/menu2_14.jpg';MM_preloadImages('images/menu2_company.jpg','images/menu2_zz.jpg','images/menu2_fu.jpg','images/menu2_lc.jpg','images/menu2_gjcs.jpg','images/menu2_fg.jpg','images/menu2_job.jpg')">
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/aboutus_01.jpg" width="1000" height="114"></td>
+  </tr>
+</table>
+
+<!--菜单表格 -->
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="28" align="center" bgcolor="#ED1B24"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/menu2_02.jpg',1)"><img src="images/menu_02.jpg" alt="首页" name="home" width="84" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_wh.style.display='block'"
+onmouseout="myMenu_wh.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_wh style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">
+                <table width="80" height="77" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('company','','images/menu2_company.jpg',1)"><img src="images/menu_company.jpg" alt="公司简介" name="company" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="cert.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cert','','images/menu2_zz.jpg',1)"><img src="images/menu_zz.jpg" alt="公司资质" name="cert" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>				  <tr>
+                    <td><a href="lilian.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lilian','','images/menu2_lilian.jpg',1)"><img src="images/menu_lilian.jpg" alt="经营理念" name="lilian" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="fuwu.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fuwu','','images/menu2_fu.jpg',1)"><img src="images/menu_fu.jpg" alt="服务范围" name="fuwu" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="liucheng.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('liucheng','','images/menu2_lc.jpg',1)"><img src="images/menu_lc.jpg" alt="服务流程" name="liucheng" width="112" height="29" border="0"></a></td>
+                  </tr>
+           <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="jigou.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jigou','','images/menu2_jg.jpg',1)"><img src="images/menu_jg.jpg" alt="合作机构" name="jigou" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aboutus','','images/menu2_04.jpg',1)"><img src="images/menu_04.jpg" alt="关于我们" name="aboutus" width="112" height="28" border="0"></a></div>
+        </div></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="pgs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pgs','','images/menu2_06.jpg',1)"><img src="images/menu_06.jpg" alt="评估案例" name="pgs" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_build.style.display='block'"
+onmouseout="myMenu_build.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_build style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">                <table width="80" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="flfg.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('flfg','','images/menu2_fg.jpg',1)"><img src="images/menu_fg.jpg" alt="法律法规" name="flfg" width="112" height="29" border="0"></a></td>
+                  </tr>
+		 <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="gjcs.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gjcs','','images/menu2_gjcs.jpg',1)"><img src="images/menu_gjcs.jpg" alt="估价常识" name="gjcs" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('build','','images/menu2_08.jpg',1)"><img src="images/menu_08.jpg" alt="信息中心" name="build" width="112" height="28" border="0"></a></div>
+        </div></td>
+		
+		<td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="gcsj_all.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sj','','images/menu2_sj.jpg',1)"><img src="images/menu_sj.jpg" alt="国城视界" name="sj" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="job.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/menu2_job.jpg',1)"><img src="images/menu_job.jpg" alt="招贤纳才" name="job" width="114" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="contactus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contactus','','images/menu2_10.jpg',1)"><img src="images/menu_10.jpg" alt="联系我们" name="contactus" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="#" onClick="javascript:window.external.addfavorite('http://www.gcgj.com.cn','国城估价')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('favorite','','images/menu2_14.jpg',1)"><img src="images/menu_14.jpg" alt="加入收藏" name="favorite" width="112" height="28" border="0"></a></td>
+        <td>　</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<!--菜单表格 -->
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="background-repeat:no-repeat; background-position:bottom">
+  <tr>
+    <td height="31" colspan="2" background="images/aboutus_03.jpg">　</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
+	<tr>
+		<td colspan="2" valign="top" bgcolor="#FFFFFF" style=" background-attachment:fixed; background-image:url(images/dfmz_bg.jpg); background-position:bottom; background-repeat:no-repeat;"><table width="1000" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="840" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x">
+			
+			<!--这里面是内容 -->
+			
+
+			
+			
+			<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="23"><div align="right" class="STYLE1">首页 -&gt; 国城视界</div></td>
+              </tr>
+              <tr>
+                <td height="15" align="right"><img src="images/line.jpg" width="512" height="5"></td>
+              </tr>
+              <tr>
+			     <td height="6" class="t13"><p>　　</p>
+                  <p align="center" class="STYLE3">试论房地产的减值评估</p>
+				  <p align="center">唐阿祥 </p>
+                  <blockquote>
+			        <p>　　在我国，房地产评估业已有十多年的历史，应该说整个行业的发展是相当迅速的，无论是评估理论还是评估实践，取得的成绩是卓著而斐然的。特别是1999年颁布的《房地产估价规范》，对评估业的健康、有序、规范的发展，更是起到了十分重要的作用。对于房地产估价的目的，《房地产估价规范》中共列举了十二项：1.土地使用权出让价格评估；2.房地产转让价格评估；3.房地产租赁价格评估；4.房地产抵押价值评估；5.房地产保险评估；6.房地产课税评估；7.征地和房屋拆迁补偿价格评估；8.房地产分割、合并估价；9.房地产纠纷估价；10.房地产拍卖底价评估；11.企业各种经济活动中涉及的房地产估价；12.其他目的的房地产估价。房地产的减值评估属于非主流的房地产评估目的，因而被列入“其他目的的房地产估价”，在《房地产估价规范》中是这样规定的：“其他目的的房地产估价，包括房地产损害赔偿估价等。房地产损害赔偿估价，应把握被损害房地产在损害前后的状态。对于其中可修复部分，宜估算其修复所需的费用作为损害赔偿价值”。规定得相当原则和笼统，在具体的评估实践中，情况往往要复杂得多。本文就房地产的减损价值评估，简称减值评估，结合评估实践作出探索。</p>
+			        <p><strong>一、房地产减值评估的概念  </strong></p>
+			        <p>　　本文所述的房地产减值，是指与正常的房地产相比，待评估房
+地产在实体、功能、环境等方面出现质量缺陷，从而导致房地产价值的减损。房地产减值评估就是估价人员对产生价值减损前后的房地产进行比较对照，确定待评估房地产价值减损程度和减损金额的一种特殊的房地产评估。
+  </p>
+			        <p>　　房地产减值评估的前提是与正常的房地产相比较而出现的价值减损。例如：住宅前面原来是空地，因开发商修改规划，在住宅的前面造起一幢建筑物，使该住宅的采光受到影响而引起的价值减损；因改变房屋结构，缩小厨房面积导致厨房使用功能降低而引起的价值减损等等，这里的价值减损，是由于修改规划和改变结构而引起的，是相对原来正常的房地产价格而言的。假如住宅前面原本就有建筑物，采光原本不好，或者厨房面积原本就小，就不属于减值评估的范畴了。</p>
+			        <p>　　房地产减值评估的内涵主要包括房地产的实体、功能、环境等方面的变化，实体是指房地产的实物体征，如房地产的房屋结构、建筑类型、建材质量、施工质量、抗震强度、外观形态等要素；功能是指房地产的使用性能，如房型布局、面积大小、内部设施、外部配套等要素；环境是指房地产周围的物理性状，如通风采光、景观视觉、卫生状况、大气环境、声觉环境等要素。 </p>
+					<p><strong>二、	房地产减值评估的理论依据  </strong></p>
+			        <p>　　房地产评估的核心是房地产的价格，而房地产的价格是房地产
+价值的外部表现形式，决定房地产价格的是房地产的价值。只有当房地产的价值减损了，才会导致房地产价格的降低。影响房地产价格的因素是众多而复杂的，当房地产在实体、功能、环境等方面发生变化，产生缺陷损失的时候，势必会影响房地产的价格，形成价格的跌损。
+ </p>
+			        <p>　　房地产作为一种商品，和一般的商品是一样，也存在着生产价值、使用价值和交换价值。在使用价值和交换价值的关系上，亚当?斯密认为：“价值一词有两个不同的含义。它有时表示特定物品的效用，有时又表示由于占有某物而取得的对他种货物的购买能力。前者叫做使用价值，后者叫做交换价值。”马克思通过对不同商品可以进行交换、其内必然包含某种共同物的分析，揭示了人类劳动创造价值的结论：“如果把商品体的使用价值撇开，商品体就只剩下一个属性，即劳动产品这个属性”；在商品的交换过程中抽去使用价值以后，“它们剩下的只是同一的幽灵般的对象性，只是无差别的人类劳动的单纯凝结。”使用价值就是“物的有用性”，并成为构成社会财富的物质内容；而“交换价值首先表现为一种使用价值同另一种使用价值相交换的量的关系或比例”。 </p>
+			        <p>　　除了使用价值和交换价值，商品还具有生产价值。生产价值是潜在意义上的价值，是表现为客观实在的价值在商品生产过程的具体实现形式，并体现着价值的现实来源；使用价值是现实意义上的价值，是表现为主观感受的价值在特定场合（特定环境和特定的消费者）的具体实现形式，它体现着价值的现实存在，并构成国民财富的真正内容；交换价值是中介意义上的价值，它通过不同价值之间的比照关系来体现着价值本身，用以连接作为客观实在的价值和作为主观感受的价值。</p>
+			        <p> 　　正因为房地产具有生产价值、使用价值和交换价值，反映在它外部的就是使用性价值和交换性价值，房地产不仅有使用性价值，还有交换性价值，当房地产发生价值减损的时候，它的使用价值和交换价值会背离，甚至是较大的背离。</p>
+			        <p><strong>三、	房地产减值评估的几种情况</strong></p>
+			        <p>　　尽管房地产评估的发展非常迅速，评估理论日益成熟，评估实
+践日益丰富，但作为特殊的评估形式，房地产减值评估的重要性远远没有被公众所认识，许多人只知道一般意义上的房地产评估，但根本就不知道还有房地产减值评估，在遭受了损失之后无从保护自己的合法权益。
+  </p>
+			        <p>　　从房地产评估的实践中看，房地产减值评估大致有以下几种情况： </p>
+			        <p>1.	施工质量缺陷造成的房地产减值		          </p>
+			        <p>　　由于施工方的原因，建材质量、施工工艺不符合规定而造成的施工质量缺陷，如沉降、开裂、渗漏、倾斜等。例如：某人新购商品房，在装修铺设地板时无意中打穿了楼板，发现楼板只有5Cm厚，经专业的房屋质量检测机构检测，判定为施工质量问题，牢度有一定影响，但不影响居住。某人与开发商协商赔偿不成，遂诉至法院，法院要求作减值评估。  </p>
+					<p>2.	人为损坏造成的房地产减值</p>
+					<p>　　由于人为的因素，如装修不当、周围施工不当、外力损坏等引起的房地产损坏。例如：住宅楼附近正在施工，在桩基作业时不慎引起该住宅楼墙体开裂，虽经修复但居民心理阴影难处，纷纷售房搬出，但售价已经今非昔比，说明房屋已经贬值。</p>
+					<p>3.	修改规划或设计方案造成的房地产减值</p>
+					<p>　　修改规划或设计方案，常常会影响其他房地产的正常使用，在景观、采光、通风方面造成影响，还可能引起环境方面的影响，如噪声、气味、光污染、降低私密性等。例如：某开发商调整小区布局，在某住宅楼旁建造了一幢办公楼，导致住宅楼居民不满，认为景观、采光、私密性等受到损害，要求赔偿。</p>
+					<p>4.	相邻关系发生变化造成的房地产减值</p>
+					<p>　　相邻关系是一种民事法律关系，指两个以上相互毗邻的不动产所有人或者使用人，因通行、采光、通风等必需，依照法律规定产生的权利义务关系。例如:住宅的隔壁新开的饭店，排放的油烟以及厨房卫生、噪声、人员进出频繁引发的安全性等等，造成该住宅价值的减损。  </p>
+					<p>5.	行政行为导致的房地产减值</p>
+					<p>　　政府的行政行为有时会导致某些房地产的减值，例如：道路改变为单行道或禁止非机动车行驶导致商业房地产人流量减少，从而引起商业房地产的减值；政府修建城市高架道路，过于贴近沿途房屋，导致沿途房地产的减值等等。  </p>
+					<p>　　由于政府的行政行为导致的房地产减值而引发的行政诉讼在现实生活中已经存在，但不多。随着公民法律意识的日益增强，此类纠纷和诉讼会越来越多，此类减值评估也会越来越多。</p>
+					<p><strong>四、	房地产减值评估的难点</strong></p>
+			        <p>　　根据《房地产估价规范》的规定：“房地产损害赔偿估价，应把
+握被损害房地产在损害前后的状态。对于其中可修复部分，宜估算其修复所需的费用作为损害赔偿价值”。那么，对于受损的房地产是不是经过修复了，就不再需要赔偿了？或者仅仅是参照直接损害的修复费用（往往较低），作少量的赔偿？
+
+  </p>
+  					<p>　　笔者认为，这是不合理的，其减损价值应当由市场来作出鉴定，市场才是最好的估价师。</p>
+			        <p>　　例如：2002年，某人购买了一幢别墅，当时的价格为120万元，并购买了一套中央空调，空调商包安装，在装修之前，需要在每个房间安装通风管道。由于工人不了解施工工艺，在整幢别墅各房间随意敲了大小十三个孔洞准备排放风管，其中有多处敲毁的是承重墙、以及钢砼房梁。主人发现后责令停止施工并请专业的房屋质量检测机构测评，测评结果为部分结构损坏，并提出修复意见。空调商承认施工不当，愿意修复。主人待修复之后提出赔偿20万元的要求，空调商不接受，理由是已经修复，不再有安全隐患，何况整个中央空调系统才不过5万元。于是诉讼至法院，法院要求作减值评估。
+  </p>
+  					<p>　　该案例在估价公司内部引起争论：一种意见认为造成的损坏已经修复，不再有安全隐患，甚至修复后的牢度比原来更强，不存在价值的减损；另一种意见认为尽管已经修复，房屋的使用价值没有减损，但比较没有遭到损害之前，房地产的交换价值受到了减损，因此存在减值现象，应当作减值评估。</p>
+			        <p>　　事实上，假设小区内有两套相同的别墅，其他条件一样，一套是完好的，另一套是曾经损坏而经修复的，它们的售价一样，你愿意接受曾经损坏而经修复的那一套吗？答案是显然的。如果不能接受，说明二者之间存在差异，而它们之间的差价就是减值的部分。最终，减值评估的结果为该别墅在估价时点正常价格的15％左右，被法院采信并成功判决。
+  </p>
+  					<p><strong>五、	房地产减值评估的方法</strong></p>
+			        <p>　　从道理上说，房地产的减值部分是减值前后的差价，即：  </p>
+  					<p>　　房地产减损价值＝受损前房地产价值－受损后房地产价值  </p>
+  					<p>　　受损前的房地产价值即正常的房地产价值，一般没有疑难之处，
+但是受损后房地产价值就不容易确定了。由于减值评估的特殊性，几乎没有可比案例；现有的几种常用的估价方法也不能直接使用，而必须根据具体情况作相应的修正。甚至估价师必须根据房地产估价的一般理论和原则，结合实际情况创造性地发挥，运用新的估价思路和方法。
+</p>
+			        <p>　　1．	调整修正法  </p>
+  					<p>　　无论是市场比较法还是收益还原法，都是历经百年考验而十分成熟的估价方法，其估价理论同样适用于房地产的减值评估，只是减值评估是一种特殊的房地产评估，需要在传统的评估方法的基础上作必要的调整和修正，而这种调整和修正不能囿于以往的限制。</p>
+			        <p>　　运用市场比较法进行减值评估时，鉴于减值评估的特殊性，在选择可比实例时，对于“近期内”、“已成交”、“相类似”的条件限制应当宽泛一些，在找不到合适的可比实例时，可以找一些相似的案例，结合估价经验进行类推，在作修正的时候，其修正幅度可相应增大，当然，前提条件是合法性和合理性，同时尽量兼顾规范性。
+  </p>
+  					<p>　　收益还原法也是进行减值评估的有效方法之一，鉴于减值评估的特殊性，也要有别于一般的房地产。在计算收益年限的时候，应充分考虑估价对象的受损程度和修复状况，如有必要，可相应缩短收益年限；在确定资本化率时，应考虑其受损的现状。通常说来，资本化率与投资风险成正比，在确定减值估价对象的资本化率时，可适当提高其资本化率。 </p>
+  					<p>　　重置成本法一般不适合进行减值评估，因为房地产价值的减损往往取决于市场对估价对象的认知程度，或者说是公众对于估价对象的接受程度，而与一般情况下正常的房地产不同。事实上，减值评估往往是“事故”造成的，很难重置，也没有重置的意义。在计算修复成本时比较容易（直接损失），而求取减损价值（间接损失）时，重置成本法就显得无能为力了。 </p>
+  					<p>　　2．	市场调查法</p>
+  					<p>　　市场是最好的估价师。市场的接受程度在一定程度上反映了房地产的客观价值。</p>
+			        <p>　　可以设计一份问卷调查表，案情介绍，客观描述受损及修复状况，以及你认为估价对象应有的价值。在数量上越多越好，最低不少于50份，其中分为两类，一类是普通市民，一类是专业人士，专业人士的比例应占三分之二。在普通市民中，应兼顾各种职业、年龄、文化程度，以求客观和全面；专业人人士包括房地产估价师、造价工程师、房地产开发人员、房地产销售人员、律师、法官等，以求公正和理性。一般说来，普通市民提交的问卷相对较随意，价格也较悬殊；专业人士则相对理性。最后将所有问卷作统计处理，就可以得出比较公正、客观的减损价值。  </p>
+  					<p>　　将调整修正法和市场调查法分别得出的计算结果作权重处理，便可以最终得出估价对象房地产的减损价值。
+</p>
+			        <p>　　房地产的减损价值评估是在评估实践中衍生出来的新课题，很少有现成的案例可参考，在进行评估作业时需花费很多的人力和精力，还需要估价师发挥主观能动性，根据估价对象的具体情况进行创造性的劳动。随着房地产估价业的不断发展，估价理论和估价实践的不断完善，房地产权利人保护自身合法权益意识的日益增强，房地产减值评估出现的机会将越来越多，相应的法律法规会越来越健全，整个行业的减值评估的水准也会越来越高。  </p>
+                  </blockquote>			    </td>
+              </tr>
+            </table>
+			
+			
+			
+		<!--这里面是内容 -->			</td>
+            <td width="160" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x"><img src="images/jzsc.gif" width="113" height="366"></td>
+          </tr>
+          <tr>
+            <td height="87" colspan="2" valign="bottom" style="background-repeat:repeat-x"><table width="100%" height="53" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="53" align="center"><table width="529" height="41" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="190" height="41" align="right">版权所有 &copy; 2008-2016</td>
+                    <td width="28"><img src="images/gclogo.gif" width="28" height="28"></td>
+                    <td width="250"> 上海国城土地房地产估价有限公司 </td>
+                    <td width="126"><img src="images/guocheng_badge.gif" width="34" height="41"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+      </table></td>
+    </tr>
+</table>
+<table width="1000" height="32" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#ED1B24"><div align="center" class="STYLE2">    地址:上海市黄浦路99号(上海滩国际大厦)2210室 邮编:200080 电话:021-63830052 客服电话:021-31336677 传真:021-63830085<br>网址:http://www.gcgj.com.cn<br>友情链接：<a href="http://www.egutong.com.cn" target="_blank"><font color="#FFFFFF">e估通</font></a>
+  	<p><a href="http://www.miibeian.gov.cn" target="_blank">	<font color="#FFFFFF">ICP</font><font color="#FFFFFF">证: 沪ICP备10026994号</font></a></div></td>
+  </tr>
+</table>
+</body>
+</html>

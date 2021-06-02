@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>国城估价 - 国城视界</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FF6600;
+}
+body,td,th {
+	font-size: 14px;
+}
+.STYLE1 {
+	color: #CC0000;
+	text-decoration: none;
+}
+-->
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE2 {	color: #FFFFFF;
+	font-size: 14px;
+}
+.STYLE3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body onLoad="'images/menu2_02.jpg','images/menu2_04.jpg','images/menu2_06.jpg','images/menu2_08.jpg','images/menu2_10.jpg','images/menu2_12.jpg','images/menu2_14.jpg';MM_preloadImages('images/menu2_company.jpg','images/menu2_zz.jpg','images/menu2_fu.jpg','images/menu2_lc.jpg','images/menu2_gjcs.jpg','images/menu2_fg.jpg','images/menu2_job.jpg')">
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/aboutus_01.jpg" width="1000" height="114"></td>
+  </tr>
+</table>
+
+<!--菜单表格 -->
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="28" align="center" bgcolor="#ED1B24"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/menu2_02.jpg',1)"><img src="images/menu_02.jpg" alt="首页" name="home" width="84" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_wh.style.display='block'"
+onmouseout="myMenu_wh.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_wh style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">
+                <table width="80" height="77" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('company','','images/menu2_company.jpg',1)"><img src="images/menu_company.jpg" alt="公司简介" name="company" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="cert.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cert','','images/menu2_zz.jpg',1)"><img src="images/menu_zz.jpg" alt="公司资质" name="cert" width="112" height="29" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>				  <tr>
+                    <td><a href="lilian.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lilian','','images/menu2_lilian.jpg',1)"><img src="images/menu_lilian.jpg" alt="经营理念" name="lilian" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="fuwu.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fuwu','','images/menu2_fu.jpg',1)"><img src="images/menu_fu.jpg" alt="服务范围" name="fuwu" width="112" height="29" border="0"></a></td>
+                  </tr>
+				  <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="liucheng.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('liucheng','','images/menu2_lc.jpg',1)"><img src="images/menu_lc.jpg" alt="服务流程" name="liucheng" width="112" height="29" border="0"></a></td>
+                  </tr>
+           <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="jigou.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jigou','','images/menu2_jg.jpg',1)"><img src="images/menu_jg.jpg" alt="合作机构" name="jigou" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aboutus','','images/menu2_04.jpg',1)"><img src="images/menu_04.jpg" alt="关于我们" name="aboutus" width="112" height="28" border="0"></a></div>
+        </div></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="pgs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pgs','','images/menu2_06.jpg',1)"><img src="images/menu_06.jpg" alt="评估案例" name="pgs" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><div onMouseOver="myMenu_build.style.display='block'"
+onmouseout="myMenu_build.style.display='none'">
+            <div style="position:absolute;width:0px;height:0px;overflow:visible;">
+              <div id=myMenu_build style="position:absolute;left:0px;top:28px;display:none;padding:0px;text-align:left;">                <table width="80" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="2" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="flfg.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('flfg','','images/menu2_fg.jpg',1)"><img src="images/menu_fg.jpg" alt="法律法规" name="flfg" width="112" height="29" border="0"></a></td>
+                  </tr>
+		 <tr>
+                    <td height="1" bgcolor="#ffffff"></td>
+                  </tr>
+                  <tr>
+                    <td><a href="gjcs.php?npage=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gjcs','','images/menu2_gjcs.jpg',1)"><img src="images/menu_gjcs.jpg" alt="估价常识" name="gjcs" width="112" height="29" border="0"></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          <div><a href="javascript:;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('build','','images/menu2_08.jpg',1)"><img src="images/menu_08.jpg" alt="信息中心" name="build" width="112" height="28" border="0"></a></div>
+        </div></td>
+		
+		<td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="gcsj_all.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sj','','images/menu2_sj.jpg',1)"><img src="images/menu_sj.jpg" alt="国城视界" name="sj" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="job.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('job','','images/menu2_job.jpg',1)"><img src="images/menu_job.jpg" alt="招贤纳才" name="job" width="114" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="contactus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contactus','','images/menu2_10.jpg',1)"><img src="images/menu_10.jpg" alt="联系我们" name="contactus" width="112" height="28" border="0"></a></td>
+        <td><img src="images/menu2_03.jpg" width="5" height="28"></td>
+        <td><a href="#" onClick="javascript:window.external.addfavorite('http://www.gcgj.com.cn','国城估价')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('favorite','','images/menu2_14.jpg',1)"><img src="images/menu_14.jpg" alt="加入收藏" name="favorite" width="112" height="28" border="0"></a></td>
+        <td>　</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<!--菜单表格 -->
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="background-repeat:no-repeat; background-position:bottom">
+  <tr>
+    <td height="31" colspan="2" background="images/aboutus_03.jpg">　</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
+	<tr>
+		<td colspan="2" valign="top" bgcolor="#FFFFFF" style=" background-attachment:fixed; background-image:url(images/dfmz_bg.jpg); background-position:bottom; background-repeat:no-repeat;"><table width="1000" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="840" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x">
+			
+			<!--这里面是内容 -->
+			
+
+			
+			
+			<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="23"><div align="right" class="STYLE1">首页 -&gt; 国城视界</div></td>
+              </tr>
+              <tr>
+                <td height="15" align="right"><img src="images/line.jpg" width="512" height="5"></td>
+              </tr>
+              <tr>
+			     <td height="6" class="t13"><p>　　</p>
+                  <p align="center" class="STYLE3">从《物权法》看建筑物地下空间车库的归属</p>
+				  <p align="center">唐阿祥</p>
+                  <blockquote>
+			        <p>　　建筑物地下空间车库的归属问题一只是困扰法律界和房地产开发、物业管理等部门的问题。2007年3月16日第十届全国人民代表大会第五次会议通过的《物权法》，是专门调节物的归属和利用而产生的民事关系的重要法律，对于住宅小区的车位、车库有专门的规定。《物权法》第七十四条规定：“建筑区划内，规划用于停放汽车的车位、车库应当首先满足业主的需要。建筑区划内，规划用于停放汽车的车位、车库的归属，由当事人通过出售、附增或者出租等方式约定。占用业主共有的道路或者其他场地用于停放汽车的车位，属于业主共有。” 依然未能解决建筑物地下空间车库归属的纷争。</p>
+			        <p>　　《物权法》第七十四条其实表达了这样的意思：在建筑区划内，规划用于停放汽车的车位、车库，并且不是占用业主共有的道路或者其他场地的，其归属，由当事人通过出售、附增或者出租等方式约定。反之，则不在《物权法》调整和保护之列，例如建筑物的地下空间车库。因为建筑物地下空间车库可以停放汽车，但并非“规划用于停放汽车的车位、车库”，而且应当属于业主共有的“其他场地”。			          </p>
+			        <p>一、	建筑物地下空间车库并非源于规划立项			          </p>
+			        <p>　　从当前房地产开发现状来看，很少有从项目立项开始就规划用于停放汽车的车位、车库的情况，除非是独立开发的商业性地下车库。开发商对于开发地下建筑物的热情远没有地上建筑物来得大，开发商的商业利润主要是通过地上建筑物获得的，开发地下空间的车位，只要能收回建造成本，略有盈利即可。就一般行情，上海售价在10000元/平方米的楼盘，其地下车位的平均价格在10万元/个，地下车位的建筑面积一般在35至40平方米，约合2500元/平方米至2800元/平方米，较地下建筑物的建造成本略有盈余，跟地上建筑物的丰厚利润相比不可同日而语。事实上，建筑物地下空间车库只是房地产开发的附属产品，而非主产品， 开发商自然不会对它独立开发并规划立项。			          </p>
+			        <p>二、	建筑物地下空间车库是共有部分而非专有部分			          </p>
+			        <p>　　《物权法》第七十条规定；“业主对专有部分以外的共有部分享
+			          有共有和共同管理的权利。”那么建筑物地下空间到底属于共有部分还是专有部分？不少人认为地下空间是专有部分，应当归属于开发商，可以任由开发商“出售、附增或者出租”，理由是：第一，地下空间为开发商投资建造；第二，地下空间未进入共有建筑面积的分摊；第三，参照地下防空工程“谁投资，谁使用，谁收益”的原则，地下空间应当归属于投资人即开发商。			          </p>
+			        <p>　　笔者认为，建筑物地下空间车库是共有部分而非专有部分，因为：			          </p>
+			        <p>　　第一，地下空间不是独立的建筑空间，而是作为建筑物的基础、是整个建筑物不可分割的一部分。建筑物不能缺少基础，正如建筑物不能缺少屋顶一样。作为建筑物的基础，地下空间的结构承担了整个建筑物的承重功能，用作车库，只是衍生出来的副产品，它和地上建筑物的关系只能是共有部分，否则地上建筑物就成了无本之木、空中楼阁。			          </p>
+			        <p>　　第二，建筑物地下空间不计入共有建筑面积的分摊，出于政府的另行考虑。1998年12月22日，国家质量技术监督局颁布的《中华人民共和国国家计量技术规范（JJF1058－1998）》，规定以下三种情况不应计入共有建筑面积的分摊：①.从属于人防工程的地下室、半地下室；②.供出租或出售的固定车位或专用车库；③.幢外的用作公共休憩的设施或架空层。从政府的立法本意，不难看出政府是为了保护业主利益，避免开发商任意扩大共有建筑面积的分摊。但是从逻辑上说，不计入共有建筑面积的分摊，并不能推论出建筑物地下空间必然归属于开发商，正如不能说“杯子不是我的”，就得出“杯子是你的”的结论一样。			          </p>
+			        <p>　　第三，地下空间不能因为是开发商投资建造而归其所有。例如地下人防工程，《中华人民共和国人民防空法》规定，“国家鼓励、支持企业事业组织、社会团体和个人，投资进行人民防空工程建设，人民防空工程平时由投资者使用管理，收益归投资者所有。”在和平时期，投资者享有包括转让使用权、租赁等方式的使用权、收益权。同时，中央军委、国家人防办、国资局等部门又明确规定人防工程属于“国有资产”，所有权并不属于投资人。同样，建筑物地下空间由开发商投资建造，并享有使用权、收益权，但不能拥有所有权。</p>
+			        <p> 三、	建筑物地下空间车库应当属于业主共有的“其他场地”			          </p>
+			        <p>　　在建筑区划内，属于业主共有的有套内建筑面积之外的共有建筑
+			          面积，如外墙、走廊、楼梯、电梯井道、设备用房、辅助用房等，还有小区道路、小区绿化、公共设施、门卫、配电房、泵房、小区会所、自行车库（棚），以及建筑物地下空间车库，它们均属于业主共有的“其他场地”。它们有一个共同的特点，即都是整装建筑物不可分割的部分，共同组成、支撑了建筑物的使用功能，不属于业主的专有部分，却又是业主正常使用过程中不可缺少的组成部分。从理论上说，开发商出售的建筑物地下空间车库，并不是所有权，甚至不是使用权，而是由于车库的稀缺性所带来的一种垄断资源的收益。事实上，没有任何一个地下空间车库能够获得政府颁发的所有权证或者是使用权证，它们在房地产权证“房屋类型”一栏，记载的是“其他”，或者只是在房地产权证的附记里，标注部位和建筑面积等信息，而从来没有获得过权利的确认。</p>
+			        <p> 四、	现有土地使用制度是建筑物地下空间车库无法归属的根本原因			          </p>
+			        <p>　　开发商建造投资的建筑物地下空间，是没有经过土地分摊的，这
+			          是现有土地使用制度的一大漏洞。从现行的房地产法律法规看，确认地下建筑物所有权归属问题是缺乏法律依据的。《中华人民共和国城市房地产管理法》第二条规定：“本法所称房屋，是指土地上的房屋等建筑物及构筑物”。这里的“土地上”当指地表之上，而没有涉及地下空间的范畴，反映了我国立法滞后的窘况。开发商取得土地使用权时，只是地上建筑物部分参与了土地的分摊，而建筑物地下空间车库所占空间没有经过土地分摊，它既非通过出让、转让的方式获得土地使用权，又非划拨土地，那么开发商处分建筑物地下空间车库的合法性便不复存在，将其出售、出租的所得都属于不当得利。			          </p>
+			        <p>五、	建筑物地下空间车库只有在补缴土地出让金之后方能取得合法的所有权			          </p>
+			        <p>　　为了解决地下空间归属的法律瓶颈问题，上海市在全国范围内第一个制定了地方性行政法规《上海市城市地下空间建设用地审批和房地产登记施行规定》（以下简称《施行规定》），并于2006年9月1日起施行。《施行规定》适用范围为“本市国有土地范围内地下空间开发建设的用地审批和房地产登记，但因管线铺设、桩基工程等情形利用地下空间的除外。”本文论述的建筑物地下空间车库无疑属于此范围。《施行规定》第六条规定：“经营性项目的地下土地使用权出让金，按照分层利用、区别用途的原则，参照地上土地使用权出让金的标准收取。”同时规定： “本办法实施前开发建设的地下建（构）筑物属于经营性用途的，转让时由受让人向土地管理部门补办土地使用权出让手续。”			          </p>
+			        <p>　　对于建筑物地下空间车库，《物权法》规定得非常笼统而模糊，而上海市的《施行规定》却规定得很明确，开发商只有在补缴土地出让金之后，方能取得对建筑物地下空间车库合法的所有权，否则，建筑物地下空间车库应当属于业务的共有部分，开发商的出售、出租等行为属于对业主的侵权行为。 </p>
+                  </blockquote>			    </td>
+              </tr>
+            </table>
+			
+			
+			
+		<!--这里面是内容 -->			</td>
+            <td width="160" valign="top" background="images/tint_bg.jpg" style="background-repeat:repeat-x"><img src="images/jzsc.gif" width="113" height="366"></td>
+          </tr>
+          <tr>
+            <td height="87" colspan="2" valign="bottom" style="background-repeat:repeat-x"><table width="100%" height="53" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="53" align="center"><table width="529" height="41" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="190" height="41" align="right">版权所有 &copy; 2008-2016</td>
+                    <td width="28"><img src="images/gclogo.gif" width="28" height="28"></td>
+                    <td width="250"> 上海国城土地房地产估价有限公司 </td>
+                    <td width="126"><img src="images/guocheng_badge.gif" width="34" height="41"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+      </table></td>
+    </tr>
+</table>
+<table width="1000" height="32" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#ED1B24"><div align="center" class="STYLE2">    地址:上海市黄浦路99号(上海滩国际大厦)2210室 邮编:200080 电话:021-63830052 客服电话:021-56660607 传真:021-63830085<br>网址:http://www.gcgj.com.cn<br>友情链接：<a href="http://www.egutong.com.cn" target="_blank"><font color="#FFFFFF">e估通</font></a>
+  	<p><a href="http://www.miibeian.gov.cn" target="_blank">	<font color="#FFFFFF">ICP</font><font color="#FFFFFF">证: 沪ICP备10026994号</font></a></div></td>
+  </tr>
+</table>
+</body>
+</html>

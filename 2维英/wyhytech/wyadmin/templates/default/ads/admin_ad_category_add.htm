@@ -1,0 +1,43 @@
+{#include file="sys/admin_header.htm"#}
+<div class="admin_main_nr_dbox">
+<div class="pagetit">
+	<div class="ptit"> {#$pageheader#}</div>
+	{#include file="ads/admin_ad_nav.htm"#}
+  <div class="clear"></div>
+</div>
+<div class="toptip">
+
+</div>
+<div class="toptit">添加</div>
+  <form action="?act=ad_category_add_save" method="post"  name="form1" id="form1">
+ 
+    <table width="100%" border="0" cellspacing="0" cellpadding="4" class="link_lan"  >
+       <tr>
+        <td style=" line-height:220%; color:#666666;"><table width="700" border="0" cellspacing="4" cellpadding="4">
+          <tr>
+            <td width="181" align="right">名称：</td>
+            <td width="498"><input name="categoryname" type="text" class="input_text_200" id="categoryname" maxlength="50"/></td>
+          </tr>
+		  <tr>
+            <td width="181" align="right">调用名称：</td>
+            <td width="498"><input name="alias" type="text" class="input_text_200" id="alias" maxlength="50"/>
+           <span style="color: #999999"> 调用名称用于在模板中调用此广告位</span>
+			</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td height="60">
+			{#$inputtoken#}
+			<input type="submit" name="Submit3" value="确定提交" class="admin_submit"   />
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input name="submit22" type="button" class="admin_submit"    value="返 回" onclick="Javascript:window.history.go(-1)"/>
+			</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+  </form>
+</div>
+{#include file="sys/admin_footer.htm"#}
+</body>
+</html>

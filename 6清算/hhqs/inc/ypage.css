@@ -1,0 +1,8 @@
+/*----------------------page nav-------------------------*/
+.page_nav {border:0px solid #CECFCE;background:#EFEFEF;}
+.page_nav_inner {border-left:1px solid #F7F7F7;border-top:1px solid #F7F7F7;overflow:hidden;zoom:1;line-height:20px; padding:6px 5px;}
+a.page_link{  float:left;font:bold 12px Arial;margin:0 2px;padding:1px 5px;text-align:center;text-decoration:none;border:1px solid #999;}
+a.page_link:hover{color:#FFF;border:1px solid #333;text-decoration:none;background:#900;}
+.prevLink {float:left; margin:0 10px 0 0; line-height:20px;font-size:11px; font-weight:bold}
+.nextLink {float:left; margin:0 0 0 10px; line-height:20px; font-size:11px; font-weight:bold}
+.currLink {color:#FFF; background:#900;}

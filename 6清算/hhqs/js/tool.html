@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gyct Tools</title>
+<style>
+body { color:#006600; font-size:10pt; font-family:Verdana, Arial, Helvetica, sans-serif; background:url(file:///F|/图片/wallpaper/design422_1024.jpg);}
+input,textarea { border-width:1px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; background:#CCF4FE;}
+</style>
+</head>
+
+<body>
+<script>
+function getresults() {
+	var fileds=document.getElementById("fileds").value;
+	terms = fileds.split(",")
+	var termsValue=""
+	var tablename=document.getElementById("tablename").value;
+	var results=document.getElementById("results");
+	var action
+    var form1 = document.getElementById("form1");
+    for (i=0; i<form1.act.length; i++){
+        if (form1.act[i].checked){
+            action = form1.act[i].value;
+            break;
+        }
+    }
+	switch (action){
+		case "insert":
+			for (i=0; i<terms.length; i++){
+				if (termsValue==""){termsValue="'\"&"+terms[i]+"&\"'"} else {termsValue=termsValue+",'\"&"+terms[i]+"&\"'"}
+			}
+			sqlstr="insert into ["+tablename+"] ("+fileds+") values ("+termsValue+")";
+			break;
+		case "update":
+			for (i=0; i<terms.length; i++){
+				if (termsValue==""){termsValue=terms[i]+"='\"&"+terms[i]+"&\"'"} else {termsValue=termsValue+","+terms[i]+"='\"&"+terms[i]+"&\"'"}
+			}
+			sqlstr="update ["+tablename+"] set "+termsValue+" where ";
+			break;
+		case "addnew":
+			sqlstr="Set Rs = Server.CreateObject(\"ADODB.Recordset\")\n";
+			sqlstr+="SQL = \"SELECT * FROM t_Article WHERE (id is null)\"\n";
+			sqlstr+="Rs.Open SQL,Conn,1,3\n";
+			sqlstr+="Rs.Addnew\n";
+			for (i=0; i<terms.length; i++){
+				sqlstr+="  Rs(\""+terms[i]+"\") = "+terms[i]+"\n";
+				//if (termsValue==""){termsValue=terms[i]+"='\"&"+terms[i]+"&\"'"} else {termsValue=termsValue+","+terms[i]+"='\"&"+terms[i]+"&\"'"}
+			}
+			sqlstr+="Rs.update\n";
+			sqlstr+="Rs.Close\n";
+			break;
+		case "update2":
+			sqlstr="Set Rs = Server.CreateObject(\"ADODB.Recordset\")\n";
+			sqlstr+="SQL = \"SELECT TOP 1 * FROM t_Article WHERE id=\"&id\n";
+			sqlstr+="Rs.Open SQL,Conn,1,3\n";
+			sqlstr+="If Not Rs.Eof Then\n";
+			for (i=0; i<terms.length; i++){
+				sqlstr+="  Rs(\""+terms[i]+"\") = "+terms[i]+"\n";
+				//if (termsValue==""){termsValue=terms[i]+"='\"&"+terms[i]+"&\"'"} else {termsValue=termsValue+","+terms[i]+"='\"&"+terms[i]+"&\"'"}
+			}
+			sqlstr+="  Rs.update\n";
+			sqlstr+="End If\n";
+			sqlstr+="Rs.Close\n";
+			break;
+		case "delete":
+			sqlstr="delete from ["+tablename+"] where ";
+			break;
+	}
+	
+	results.value=sqlstr;	
+}
+
+
+function creat() {
+	var fileds=document.getElementById("fileds").value;
+	terms = fileds.split(",")
+	var termsValue=""
+	var tablename=document.getElementById("tablename").value;
+	var results=document.getElementById("results");
+	var action
+    var form1 = document.getElementById("form1");
+
+	for (i=0; i<terms.length; i++){
+		termsValue=termsValue+terms[i]+" = rs("+i+")\n";
+	}
+	sqlstr=termsValue;
+
+	results.value=sqlstr;	
+}
+
+function creat2() {
+	var fileds=document.getElementById("fileds").value;
+	terms = fileds.split(",")
+	var termsValue=""
+	var tablename=document.getElementById("tablename").value;
+	var results=document.getElementById("results");
+	var action
+    var form1 = document.getElementById("form1");
+
+	for (i=0; i<terms.length; i++){
+		termsValue=termsValue+terms[i]+" = Get_SafeStr(request.Form(\""+terms[i]+"\"))\n";
+	}
+	sqlstr=termsValue;
+
+	results.value=sqlstr;	
+}
+
+function creat3() {
+	var fileds=document.getElementById("fileds").value;
+	terms = fileds.split(",")
+	var termsValue=""
+	var tablename=document.getElementById("tablename").value;
+	var results=document.getElementById("results");
+	var action
+    var form1 = document.getElementById("form1");
+
+	for (i=0; i<terms.length; i++){
+		termsValue=termsValue+terms[i]+" : <%="+terms[i]+"%><br\/>\n";
+	}
+	sqlstr=termsValue;
+
+	results.value=sqlstr;	
+}
+
+</script>
+<form id="form1" name="form1" method="post" action="">
+
+    <textarea name="fileds" onmouseover="this.select();" cols="80" rows="8" id="fileds">a,b,c,d</textarea>
+    <br />
+    <input name="tablename" onmouseover="this.select();" type="text" id="tablename" value="t_user" />
+  <br />
+
+    <input name="act" id="act" type="radio" value="insert" />
+    insert
+    <input type="radio" id="act" name="act" value="update" />
+    update
+    <input type="radio" id="act" name="act" value="delete" />
+  delete
+  <input type="radio" name="act" value="addnew" checked="checked" />
+  addnew
+  <input type="radio" name="act" value="update2" />
+  update2
+  <br />
+  <input type="button" name="Submit" value=" gogo " onclick="getresults();" />
+<input type="button" name="Submit" value=" creat " onclick="creat();" />
+<input type="button" name="Submit" value=" creat2 " onclick="creat2();" />
+<input type="button" name="Submit" value=" creat3 " onclick="creat3();" />
+  <br />
+  <textarea onmouseover="this.select();" name="results" cols="80" rows="15" id="results"></textarea>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+      
+<style>      
+textarea { width:100%; height:100px;}      
+</style>      
+    
+<script language="JavaScript">var Sys_LoadStart=new Date(); </script>      
+<script language="javascript" type="text/javascript">      
+//target blank start      
+function blank_links() {       
+ if (!document.getElementsByTagName) return;       
+ var anchors = document.getElementsByTagName("a");       
+ for (var i=0; i<anchors.length; i++) {       
+   var anchor = anchors[i];       
+   if (anchor.getAttribute("href") &&       
+       anchor.getAttribute("rel") == "external")       
+     anchor.target = "_blank";       
+ }       
+}       
+window.onload = blank_links;      
+//target blank end      
+
+</script>      
+<script language="javascript" type="text/javascript">      
+ function rechange(){      
+ re.value=oresult.value.replace(/document.writeln\("/g,"").replace(/"\);/g,"").replace(/\\\"/g,"\"").replace(/\\\'/g,"\'").replace(/\\\//g,"\/").replace(/\\\\/g,"\\")      
+ }      
+ function change(){      
+ oresult2.value="document.writeln(\""+osource.value.replace(/\\/g,"\\\\").replace(/\//g,"\\/").replace(/\'/g,"\\\'").replace(/\"/g,"\\\"").split('\r\n').join("\");\ndocument.writeln(\"")+"\");"      
+ }     
+function doCopy(ID) {    
+    if (document.all){   
+         textRange = document.getElementById(ID).createTextRange();    
+         textRange.execCommand("Copy");    
+    }   
+    else{   
+         alert("此功能只能在IE上有效")   
+    }   
+}   
+</script>      
+<div id="body">      
+<!--第一栏开始-->      
+<div id="html_js_index_colum_one">      
+  <div id="html_js_index_colum_one_top">      
+  <div id="tool_show_intro"><p>请将 <strong>Html</strong> 源代码拷贝到下面表单中:[由于兼容性问题，该转换功能只能在IE中使用，FIREFOX无效]        
+            <br />      
+            <textarea id="osource" onpropertychange="change()"></textarea></p>      
+            <p>下面表单中是相应的 <strong>Js</strong> 代码: <br><textarea id="oresult2" ondblclick='this.select();doCopy("oresult2");'></textarea></p></div>      
+</div>      
+<div id="html_js_index_colum_one_bottom">      
+<div class="intro_title">>>把代码从 Js 格式转为 Html 格式<<</div>      
+<div id="tool_show_intro"><p>请将 <strong>Js</strong> 源代码拷贝到下面表单中: [由于兼容性问题，该转换功能只能在IE中使用，FIREFOX无效]      
+            <br><textarea id="oresult" ondblclick='this.select();doCopy("oresult");' onpropertychange=rechange()></textarea></p>      
+            <p>下面表单中是相应的 <strong>Html</strong> 代码: <br>      
+            <textarea name="textarea" id="re" ondblclick='this.select();doCopy("re");'></textarea></p></div>      
+</div>      
+</div>      
+<!--第一栏结束-->      
+<!--第六栏开始-->      
+<!--第六栏结束-->      
+</div>      
+<script language="JavaScript">var Sys_LoadEnd=new Date();var Sys_LoadTime=0;Sys_LoadTime=(Sys_LoadEnd - Sys_LoadStart);document.write('  页面装载时间:'+Sys_LoadTime+' Ms ');</script>    
+
+<script>
+function clearHtml3(){
+	var source_code3 = document.getElementById("source_code3");
+	var result3 = document.getElementById("result3");
+	
+	var tr = document.getElementById("tr").checked;
+	var td = document.getElementById("td").checked;
+	var table = document.getElementById("table").checked;
+	var style = document.getElementById("style").checked;
+	var iframe = document.getElementById("iframe").checked;
+	
+	var font = document.getElementById("font").checked;
+	var a = document.getElementById("a").checked;
+	var span = document.getElementById("span").checked;
+	var p = document.getElementById("p").checked;
+	var div = document.getElementById("div").checked;
+	var img = document.getElementById("img").checked;
+	
+	var html = source_code3.value;
+	
+	if (tr) {html = html.replace(/<(tr [^>]+)>/gi, "") ;html = html.replace(/<\/tr>/gi, "") ;}
+	if (td) {html = html.replace(/<(td [^>]+)>/gi, "") ;html = html.replace(/<\/td>/gi, "") ;}
+	if (table) {html = html.replace(/<(table [^>]+)>/gi, "") ;html = html.replace(/<\/table>/gi, "") ;}
+	if (style) {html = html.replace(/<style(.+?)\/style>/gi,"");}
+	if (iframe) {html = html.replace(/<iframe(.+?)\/iframe>/gi,"");}
+	
+	if (font) {html = html.replace(/<(font [^>]+)>/gi, "") ;html = html.replace(/<\/font>/gi, "") ;}
+	if (a) {html = html.replace(/<(a [^>]+)>/gi, "") ;html = html.replace(/<\/a>/gi, "") ;}
+	if (span) {html = html.replace(/<(span [^>]+)>/gi, "") ;html = html.replace(/<\/span>/gi, "") ;}
+	if (p) {html = html.replace(/<(p [^>]+)>/gi, "") ;html = html.replace(/<\/p>/gi, "") ;}
+	if (div) {html = html.replace(/<(div [^>]+)>/gi, "") ;html = html.replace(/<\/div>/gi, "") ;}
+	if (img) {html = html.replace(/<(img [^>]+)>/gi, "") ;}
+	
+	html = html.replace(/<(\w[^>]*) class=([^ |>]*)([^>]*)/gi, "<$1$3") ;
+	html = html.replace(/<(\w[^>]*) style="([^"]*)"([^>]*)/gi, "<$1$3") ;
+	html = html.replace(/<(\w[^>]*) lang=([^ |>]*)([^>]*)/gi, "<$1$3") ;
+	html = html.replace(/<\\?\?xml[^>]*>/gi, "") ;
+	html = html.replace(/<\/?\w+:[^>]*>/gi, "") ;
+	html = html.replace(/<o:p>/gi, "") ;
+	html = html.replace(/<\/o:p>/gi, "") ;
+	html = html.replace(/&nbsp;/, " " );
+	html = html.replace(/<script(.+?)\/script>/gi,"")
+	
+	result3.value = html;
+	
+}
+</script>
+
+
+
+<div id="tool_show_intro">
+转换
+      
+            <br><textarea id="source_code3"></textarea></p> 
+            <p>
+            <input type="checkbox" id="tr" checked="checked"> tr
+            <input type="checkbox" id="td" checked="checked"> td
+            <input type="checkbox" id="table" checked="checked"> table
+            <input type="checkbox" id="style" checked="checked"> style
+            <input type="checkbox" id="iframe" checked="checked"> iframe
+            <input type="checkbox" id="font" checked="checked"> font
+            <input type="checkbox" id="a" checked="checked"> a
+            <input type="checkbox" id="span" checked="checked"> span
+            <input type="checkbox" id="p"> p
+            <input type="checkbox" id="div"> div
+            <input type="checkbox" id="img"> img
+            <input type="button" value="开始清理" onclick="clearHtml3();" >
+            </p>     
+            <p>下面表单中是相应的 <strong>Html</strong> 代码: <br>      
+            <textarea name="textarea" id="result3"></textarea></p></div>
+
+</body>
+</html>
